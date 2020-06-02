@@ -1,0 +1,60 @@
+@charset "UTF-8";
+footer 
+{
+    background: #141a23;
+    width: 100%;
+    color: white;
+}
+footer a:link
+{
+	color: white;
+}
+footer a:visited
+{
+	color: white;
+}
+#returnBar
+{
+	text-align: center;
+    padding: 1%;
+    background: #2d3a4e;
+}
+.up
+{
+	width: 11px;
+}
+.titleInfo
+{
+	margin: 0 auto;
+    cursor: inherit;
+    border-bottom: 2px solid white;
+}
+#infoBar
+{
+	display: table;
+	width: 100%;
+    text-align: center;
+    margin-top:5px;
+}
+.elInfoBar
+{
+	width: 33%;
+    display: table-cell;
+}
+.subElInfoBar
+{
+	margin-top: 3px;
+}
+.subElTitle
+{
+	margin-left: 0px;
+}
+.subElTitle:hover
+{
+	text-decoration: underline;
+}
+.copyright
+{
+	text-align: center;
+    padding: 9px;
+}

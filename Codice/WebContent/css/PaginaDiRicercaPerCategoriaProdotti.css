@@ -1,0 +1,1675 @@
+/* @charset "UTF-8";
+
+
+#ulNav li  stimao definendo una lista in linea
+{
+	dobbiamo agire sui punti della lista e metterli in linea non a cascata come Ã¨
+	di default
+	
+	border: 1px solid black;
+	
+}
+
+aside
+{
+	position: absolute;
+    border: 1px solid black;
+    left: 0;
+    right: 82%;
+}
+
+.prodotti
+{
+	list-style:none;
+}
+
+.lista
+{
+}
+
+.result_num
+{
+	margin-left: 4%;
+}
+.list_item
+{
+	border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.prod_img
+{
+	float: left;
+	width: 10%;
+}
+.prod_name
+{
+	float: left;
+    width: 50%;
+}
+.nome_store
+{
+	float: left;
+}
+.desc_store
+{
+	float: left;
+}
+.image_store
+{
+	float: left;
+}
+.prod_action
+{
+	width: 8%;
+    float: left;
+    line-height: 2;
+    margin-top: 10px;
+}
+.info_prezzi
+{
+	width: 17%;
+    float: left;
+    line-height: 1;
+    margin-top: 4px;
+    margin-bottom: 20px;
+}
+footer
+{
+	clear: left;
+	border: 1px solid black;
+    height: 10%;
+    margin-top: 10px;
+}
+.size_40
+{
+	line-height: 1.5;
+    margin-top: 15px;
+	float: left;
+	width: 40%;
+}
+.size_20
+{
+	float: left;
+    width: 20%;
+    margin-top: 18px;
+}
+.buttons_page
+{
+	margin-left:50%;
+}
+.FormPage
+{
+	display: inline;
+}
+
+.nextPage
+{
+	display: inline;
+}
+
+.prevPage
+{
+	display: inline;
+}
+
+.disponibile
+{
+	font-size: 22px;
+	color:green;
+}
+.non_disponbiile
+{
+	font-size: 22px;
+	color:red;
+}
+
+
+
+
+
+#prodotto1 , #prodotto2
+{
+	width: 100%;
+	float: left;
+	
+	margin-left: 1.5%;
+	
+	margin-top: 1.5%;
+	
+	
+}
+
+.prod_view
+{
+	width: 100%;
+	float: left;
+	
+	margin-left: 1.5%;
+	
+	margin-top: 1.5%;
+	
+}
+
+
+
+
+#button_change
+{
+	marigin-top : 5%;
+	
+}
+
+
+#button_change_div
+{
+	text-align: center;
+	marigin-top : 5%;
+	
+	
+	padding-left: 40%;
+
+}
+
+
+#next
+{
+	float: left;
+	width: 15%;
+	width: 100px;
+	margin-right: 5%;
+	
+}
+
+#next_submit
+{
+	width: 100%;
+	
+}
+
+#before
+{
+	float: left;
+	width: 15%;
+	width: 100px;
+	margin-right: 5%;
+	
+}
+
+#before_submit
+{
+	width: 100%;
+	
+}
+
+
+	
+}
+
+
+
+
+
+copi e incolla  css pagina di ricerca prodotti
+
+
+
+
+
+
+
+Dichiariazione di alcuni font
+@font-face
+{
+	font-family: robotoItalic;
+	src: url(/PROGETTO_TSW_UPDATE/font/Roboto-LightItalic.ttf);
+}
+@font-face 
+{
+	font-family: robotoCondensed;
+	src: url(/PROGETTO_TSW_UPDATE/font/Roboto-Condensed.ttf)
+}
+@font-face 
+{
+	font-family: robotoMedium;
+	src: url(/PROGETTO_TSW_UPDATE/font/Roboto-Medium.ttf)
+}
+
+Regole generali
+*
+{
+	font-family: robotoCondensed, sans-serif;
+}
+#navigation
+{
+	font-family: Verdana,sans-serif;
+}
+
+body
+{
+	margin: 0;
+}
+
+#costo,#free
+{
+	margin-left: 0px !important;
+    cursor: initial !important;
+}
+.icon
+{
+	width: 3%;
+}
+.button_next
+{
+	background-color: #2d3a4e;
+    font-size: 17px;
+    color: white;
+    border: none;
+}
+.button_page
+{
+	background-color: #2d3a4e;
+    border-radius: 15px;
+    font-size: 17px;
+    color: white;
+    border: none;
+    margin-bottom: 2vw;
+}
+.button_page:hover
+{
+	background-color: #5c7396 !important;
+	cursor:pointer;
+	
+}
+#ulNav li  stimao definendo una lista in linea
+{
+	dobbiamo agire sui punti della lista e metterli in linea non a cascata come Ã¨
+	di default
+	
+	border: 1px solid black;
+	
+}
+.titleImgStore
+{
+	margin-left: 0;
+	cursor: inherit;
+}
+aside
+{
+	position: absolute;
+    border: 1px solid black;
+    left: 0;
+    right: 82%;
+}
+
+.prodotti
+{
+	float: left;
+	list-style:none;
+}
+
+.lista
+{
+	float: left;
+	
+	width: 100%;
+}
+
+.result_num
+{
+	display: table;
+    width: 100%;
+    margin-top: 1vw;
+    float: left;
+}
+.icon
+{
+	display: table-cell;
+    width: 2.9vw;
+    float: left;
+    margin-left: 4%;
+}
+.label
+{
+	display: table-cell;
+    width: 80%;
+    float: left;
+    font-size: 1.4vw;
+    position: relative;
+    left: 0.50vw;
+    top: 0.9vw;
+}
+.list_item
+{
+	border-bottom: 2px solid gray;
+    float: left;
+    width: 98%;
+}
+
+.prod_img
+{
+	float: left;
+	margin-bottom: 2%;
+}
+.prod_name
+{
+	float: left;
+    width: 100%;
+}
+.nome_store
+{
+	float: left;
+	width:100%
+}
+.desc_store
+{
+	float: left;
+	width: 100%;
+}
+.image_store
+{
+	float: left;
+}
+.prod_action
+{
+	float: left;
+    margin-top: 6%;
+    
+    padding-left: 1%;
+}
+
+.prod_action form , .prod_action button
+{
+	width: 100%;
+	
+}
+
+.prod_action button
+{
+	button: 80%;
+}
+
+
+.info_prezzi
+{
+	float: left;
+    line-height: 0.7;
+    
+    margin-left: 1.5%;
+}
+footer
+{
+	clear: left;
+    height: 10%;
+    margin-top: 10px;
+}
+.size_40
+{
+	line-height: 1.5;
+    margin-top: 5%;
+    float: left;
+    
+    text-align: center;
+}
+
+
+
+.size_20
+{
+	margin-top: 5%;
+    float: left;
+    line-height: 1.5;
+}
+.buttons_page
+{
+	text-align: center;
+    clear: left;
+}
+.FormPage
+{
+	display: inline;
+}
+
+.nextPage
+{
+	display: inline;
+}
+
+.prevPage
+{
+	display: inline;
+}
+
+.disponibile
+{
+	background: lime;
+    width: 10px;
+    height: 10px;
+    float: left;
+    border-radius: 9px;
+    border: 1px solid #000000;
+    margin-left: 5px;
+}
+.non_disponbiile
+{
+	background: #F44336;
+    width: 10px;
+    height: 10px;
+    float: left;
+    border-radius: 9px;
+    border: 1px solid #000000;
+    margin-left: 5px;
+}
+.titleDisp
+{
+	float: left;
+}
+footer a
+{
+	color: white;
+}
+Responsive
+
+.disp
+{
+	float: left;
+}
+
+#button_change
+{
+	marigin-top : 5%;
+	
+}
+
+
+#button_change_div
+{
+	text-align: center;
+	marigin-top : 5%;
+	
+	
+}
+
+
+Layout smartphone
+@media screen and (max-width: 599px)
+{
+	
+	.prod_img 
+	{
+    float: left;
+    margin-bottom: 2%;
+    padding-left: 15%;
+    padding-right: 15%;
+	}
+
+
+	.icon
+	{
+		width: 7.4vw;
+		margin-left: 2%;
+	}
+	.label
+	{
+		font-size: 3.4vw;
+		left: 0.50vw;
+    	top: 1.9vw;
+	}
+	
+	.prod_img img
+	{
+		width: 100%;
+		height: auto;
+    	border: 3px solid #465b79;
+	}
+	.size_40
+	{
+		margin-top: 0%;
+		
+	padding-left: 15%;
+	padding-right: 15%;
+	text-align: left;
+	}
+	.size_20 
+	{
+    	margin-top: 0%;
+    
+    padding-left: 15%;
+	padding-right: 15%;
+	}
+	.list_item
+	{
+		font-size: 4vw;
+		margin-bottom: 5%;
+		border-bottom: 3px solid gray;
+	}
+	.info_prezzi 
+	{
+    	width: 100%;
+    	
+    padding-left: 13.5%;
+	padding-right: 15%;
+	}
+	.prod_action
+	{
+    	margin-top: 2%;
+    	padding-left: 0%;
+    	
+    width: 100%;
+	}
+	
+	.prod_action button
+	{
+		width: 100%;
+	}
+	
+	.prod_action form
+	{
+	padding-left: 15%;
+	padding-right: 15%;
+	}
+	
+	
+	#searchBar
+	{
+		width: 98% !important;
+	}
+	.prodotti
+	{
+		padding-inline-start: 2%;
+	}
+	.buttons_page
+	{
+		font-size: 4vw;
+	}
+	.logo_store
+	{
+		width: 100px;
+    	height: 100px;
+    	display: block;
+	}
+	.image_store
+	{
+		height: 29px;
+    	margin-top: 1%;
+	}
+	.image_store img
+	{
+		width: 80px;
+    	height: 80px;
+    	text-align: center;
+    	float: left;
+    	position: relative;
+    	bottom: 24px;
+    	right: 7px;
+	}
+	.image_store b
+	{
+		float: left;
+	}
+	.info_prezzi 
+	{
+    line-height: 0.55;
+    margin-top: -7px;
+	}
+	
+	
+	
+}
+Layout tablet
+@media screen and (min-width: 600px) and (max-width: 859px)
+{
+	.icon 
+	{
+    	width: 4.9vw;
+	}
+	.label 
+	{
+    	font-size: 2.5vw;
+    	top: 1.2vw;
+	}
+	.prod_img
+	{
+		border: 2px solid #465b79;
+	}
+	.prod_img img
+	{
+		width: 40vw;
+    	height: 40vw;
+    	display: block;
+	}
+	.size_40
+	{
+		margin-top: 0%;
+	    width: 50%;
+   		margin-left: 1%;
+   		
+   		text-align: left;
+	}
+	.size_20 
+	{
+    	margin-top: 0%;
+    	width: 50%;
+    	margin-left: 1%;
+    	height: 7.5vw;
+	}
+	.info_prezzi 
+	{
+    	margin-left: 1%;
+	}
+	.list_item
+	{
+		font-size: 2.5vw;
+		margin-bottom: 2%;
+		border-bottom: 3px solid gray;
+	}
+	.image_store img
+	{
+		float: left;
+    	position: relative;
+    	bottom: 3.2vw;
+    	width: 9vw;
+    	height: 9vw;
+    	right: 0.67vw;
+	}
+	.image_store b
+	{
+		float: left;
+	}
+	.prod_action 
+	{
+    	clear: left;
+    	width: 100%;
+    	text-align: center;
+    	margin-top: 0%;
+    	margin-bottom: 1%;
+    	
+    	
+    	width: 90%;
+	}
+	.prod_action form
+	{
+		float: left;
+		width: 50%;
+	}
+	.info_prezzi 
+	{
+		line-height: 1.5;
+	}
+	.info_prezzi p
+	{
+		margin: 0;
+	}
+	.disponibile
+	{
+		background: lime;
+    	width: 1.1vw;
+    	height: 1.1vw;
+    	float: left;
+    	border-radius: 9px;
+    	border: 1px solid #000000;
+    	margin-left: 5px;
+    	margin-top: 1.3vw;
+	}
+	.non_disponibile
+	{
+		background: #F44336;
+    	width: 1.1vw;
+    	height: 1.1vw;
+    	float: left;
+    	border-radius: 9px;
+    	border: 1px solid #000000;
+    	margin-left: 5px;
+    	margin-top: 1.3vw;
+	}
+}
+Layout desktop
+@media screen and (min-width: 860px)
+{
+	.prod_img
+	{
+    	float: left;
+    	border: 2px solid #465b79;
+	}
+	.prod_img img
+	{
+		width: 250px;
+   	 	height: 250px;
+	}
+	.size_40
+	{
+		width: 35%;
+		width: 25%;
+    	margin-left: 1%;
+    	margin-top: 0%;
+	}
+	.size_20
+	{
+		width: 20%;
+    	margin-left: 1%;
+    	margin-top: 0%;
+	}
+	.image_store b
+	{
+		float: left;
+    	width: 100%;
+	}
+	.image_store img
+	{
+		float: left;
+    	width: 8vw;
+    	height: 7vw;
+    	position: relative;
+    	bottom: 2vw;
+    	right: 1vw;
+	}
+	.info_prezzi p
+	{
+		margin: 0;
+	}
+	.info_prezzi
+	{
+		line-height: 1.5;
+		width: 15%;
+	}
+	.list_item
+	{
+		margin-bottom: 1%;
+	}
+	.prod_action
+	{
+		float: left;
+    	width: 13%;
+    	margin-top: 0%;
+	}
+	.icon
+	{
+		width: 30px;
+		margin-left: 4%;
+	}
+	.label
+	{
+		font-size: 17px;
+    	top: 7px;
+	}
+	.disponibile
+	{
+		position: relative;
+    	top: 6px;
+	}
+	.non_disponibile
+	{
+		position: relative;
+    	top: 6px;
+	}
+}
+
+
+
+
+ 
+@media screen and (min-width: 860px) and (max-width: 1290px)
+{
+	.size_40 
+	{
+    
+    width: 22%;
+    margin-left: 1%;
+    margin-top: 0%;
+	}
+	
+	
+	.size_20 
+	{
+    width: 15%;
+    margin-left: 1%;
+    margin-top: 0%;
+	}
+}
+
+
+
+
+ */
+ 
+ 
+ 
+/* 
+#ulNav li  stimao definendo una lista in linea
+{
+	dobbiamo agire sui punti della lista e metterli in linea non a cascata come Ã¨
+	di default
+	
+	border: 1px solid black;
+	
+}
+
+aside
+{
+	position: absolute;
+    border: 1px solid black;
+    left: 0;
+    right: 82%;
+}
+
+.prodotti
+{
+	list-style:none;
+}
+
+.lista
+{
+}
+
+.result_num
+{
+	margin-left: 4%;
+}
+.list_item
+{
+	border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.prod_img
+{
+	float: left;
+	width: 10%;
+}
+.prod_name
+{
+	float: left;
+    width: 50%;
+}
+.nome_store
+{
+	float: left;
+}
+.desc_store
+{
+	float: left;
+}
+.image_store
+{
+	float: left;
+}
+.prod_action
+{
+	width: 8%;
+    float: left;
+    line-height: 2;
+    margin-top: 10px;
+}
+.info_prezzi
+{
+	width: 17%;
+    float: left;
+    line-height: 1;
+    margin-top: 4px;
+    margin-bottom: 20px;
+}
+footer
+{
+	clear: left;
+	border: 1px solid black;
+    height: 10%;
+    margin-top: 10px;
+}
+.size_40
+{
+	line-height: 1.5;
+    margin-top: 15px;
+	float: left;
+	width: 40%;
+}
+.size_20
+{
+	float: left;
+    width: 20%;
+    margin-top: 18px;
+}
+.buttons_page
+{
+	margin-left:50%;
+}
+.FormPage
+{
+	display: inline;
+}
+
+.nextPage
+{
+	display: inline;
+}
+
+.prevPage
+{
+	display: inline;
+}
+
+.disponibile
+{
+	font-size: 22px;
+	color:green;
+}
+.non_disponbiile
+{
+	font-size: 22px;
+	color:red;
+}
+
+
+ */
+
+
+#prodotto1 , #prodotto2
+{
+	width: 100%;
+	float: left;
+	
+	margin-left: 1.5%;
+	
+	margin-top: 1.5%;
+	
+	
+}
+
+.prod_view
+{
+	width: 100%;
+	float: left;
+	
+	margin-left: 1.5%;
+	
+	margin-top: 1.5%;
+	
+	background-color: #e4e4e4;
+	
+}
+
+
+
+
+#button_change
+{
+	margin-top : 5%;
+	
+}
+
+
+#button_change_div
+{
+	text-align: center;
+	margin-top : 5%;
+	
+	
+	padding-left: 40%;
+
+}
+
+
+#next
+{
+	float: left;
+	/* width: 15%; */
+	width: 100px;
+	margin-right: 5%;
+	
+}
+
+#next_submit
+{
+	width: 100%;
+	
+}
+
+#before
+{
+	float: left;
+	/* width: 15%; */
+	width: 100px;
+	margin-right: 5%;
+	
+}
+
+#before_submit
+{
+	width: 100%;
+	
+}
+
+
+
+
+
+/*copi e incolla  css pagina di ricerca prodotti*/
+
+
+
+
+
+
+
+/* Dichiariazione di alcuni font */
+@font-face
+{
+	font-family: robotoItalic;
+	src: url(/PROGETTO_TSW_UPDATE/font/Roboto-LightItalic.ttf);
+}
+@font-face 
+{
+	font-family: robotoCondensed;
+	src: url(/PROGETTO_TSW_UPDATE/font/Roboto-Condensed.ttf)
+}
+@font-face 
+{
+	font-family: robotoMedium;
+	src: url(/PROGETTO_TSW_UPDATE/font/Roboto-Medium.ttf)
+}
+
+/* Regole generali */
+*
+{
+	font-family: robotoCondensed, sans-serif;
+}
+#navigation
+{
+	font-family: Verdana,sans-serif;
+}
+
+body
+{
+	margin: 0;
+}
+
+#costo,#free
+{
+	margin-left: 0px !important;
+    cursor: initial !important;
+}
+.icon
+{
+	width: 3%;
+}
+.button_next
+{
+	background-color: #2d3a4e;
+    font-size: 17px;
+    color: white;
+    border: none;
+}
+.button_page
+{
+	background-color: #2d3a4e;
+    border-radius: 15px;
+    font-size: 17px;
+    color: white;
+    border: none;
+    margin-bottom: 2vw;
+}
+.button_page:hover
+{
+	background-color: #5c7396 !important;
+	cursor:pointer;
+	
+}
+#ulNav li  /* stimao definendo una lista in linea*/
+{
+	/*dobbiamo agire sui punti della lista e metterli in linea non a cascata come Ã¨
+	di default */
+	
+	border: 1px solid black;
+	
+}
+.titleImgStore
+{
+	margin-left: 0;
+	cursor: inherit;
+}
+aside
+{
+	position: absolute;
+    border: 1px solid black;
+    left: 0;
+    right: 82%;
+}
+
+.prodotti
+{
+	float: left;
+	list-style:none;
+}
+
+.lista
+{
+	float: left;
+	
+	width: 100%;
+}
+
+.result_num
+{
+	display: table;
+    width: 100%;
+    margin-top: 1vw;
+    float: left;
+}
+.icon
+{
+	display: table-cell;
+    width: 2.9vw;
+    float: left;
+    margin-left: 4%;
+}
+.label
+{
+	display: table-cell;
+    width: 80%;
+    float: left;
+    font-size: 1.4vw;
+    position: relative;
+    left: 0.50vw;
+    top: 0.9vw;
+}
+.list_item
+{
+	border-bottom: 2px solid gray;
+    float: left;
+    width: 98%;
+}
+
+.prod_img
+{
+	float: left;
+	margin-bottom: 2%;
+}
+.prod_name
+{
+	float: left;
+    width: 100%;
+}
+.nome_store
+{
+	float: left;
+	width:100%
+}
+.desc_store
+{
+	float: left;
+	width: 100%;
+}
+.image_store
+{
+	float: left;
+}
+.prod_action
+{
+	float: left;
+    margin-top: 6%;
+    
+    padding-left: 1%;
+}
+
+.prod_action form , .prod_action button
+{
+	width: 100%;
+	
+}
+
+.prod_action button
+{
+	
+}
+
+
+.info_prezzi
+{
+	float: left;
+    line-height: 0.7;
+    
+    margin-left: 1.5%;
+}
+footer
+{
+	clear: left;
+    height: 10%;
+    margin-top: 10px;
+}
+.size_40
+{
+	line-height: 1.5;
+    margin-top: 5%;
+    float: left;
+    
+    text-align: center;
+}
+
+
+
+.size_20
+{
+	margin-top: 5%;
+    float: left;
+    line-height: 1.5;
+}
+.buttons_page
+{
+	text-align: center;
+    clear: left;
+}
+.FormPage
+{
+	display: inline;
+}
+
+.nextPage
+{
+	display: inline;
+}
+
+.prevPage
+{
+	display: inline;
+}
+
+.disponibile
+{
+	background: lime;
+    width: 10px;
+    height: 10px;
+    float: left;
+    border-radius: 9px;
+    border: 1px solid #000000;
+    margin-left: 5px;
+}
+.non_disponbiile
+{
+	background: #F44336;
+    width: 10px;
+    height: 10px;
+    float: left;
+    border-radius: 9px;
+    border: 1px solid #000000;
+    margin-left: 5px;
+}
+.titleDisp
+{
+	float: left;
+}
+footer a
+{
+	color: white;
+}
+/* Responsive */
+
+.disp
+{
+	float: left;
+}
+
+#button_change
+{
+	margin-top : 5%;
+	
+}
+
+
+#button_change_div
+{
+	text-align: center;
+	margin-top : 5%;
+	
+	
+}
+
+
+/* Layout smartphone */
+@media screen and (max-width: 599px)
+{
+	
+	.prod_img 
+	{
+    float: left;
+    margin-bottom: 2%;
+    padding-left: 15%;
+    padding-right: 15%;
+	}
+
+
+	.icon
+	{
+		width: 7.4vw;
+		margin-left: 2%;
+	}
+	.label
+	{
+		font-size: 3.4vw;
+		left: 0.50vw;
+    	top: 1.9vw;
+	}
+	
+	.prod_img img
+	{
+		width: 100%;
+		height: auto;
+    	/* border: 3px solid #465b79; */
+	}
+	.size_40
+	{
+		margin-top: 0%;
+		
+	padding-left: 15%;
+	padding-right: 15%;
+	text-align: left;
+	}
+	.size_20 
+	{
+    	margin-top: 0%;
+    
+    padding-left: 15%;
+	padding-right: 15%;
+	}
+	.list_item
+	{
+		font-size: 4vw;
+		margin-bottom: 5%;
+		border-bottom: 3px solid gray;
+	}
+	.info_prezzi 
+	{
+    	width: 100%;
+    	
+    /* padding-left: 13.5%;
+	padding-right: 15%; */
+	}
+	.info_prezzi p, .info_prezzi .disp
+	{
+	padding-left: 13.5%;
+	
+	}
+	.prod_action
+	{
+    	margin-top: 2%;
+    	padding-left: 0%;
+    	
+    width: 100%;
+	}
+	
+	.prod_action button
+	{
+		width: 100%;
+	}
+	
+	.prod_action form
+	{
+	/* padding-left: 15%;
+	padding-right: 15%; */
+	}
+	
+	
+	#searchBar
+	{
+		width: 98% !important;
+	}
+	.prodotti
+	{
+		
+	}
+	.buttons_page
+	{
+		font-size: 4vw;
+	}
+	.logo_store
+	{
+		width: 100px;
+    	height: 100px;
+    	display: block;
+	}
+	.image_store
+	{
+		height: 29px;
+    	margin-top: 1%;
+	}
+	.image_store img
+	{
+		width: 80px;
+    	height: 80px;
+    	text-align: center;
+    	float: left;
+    	position: relative;
+    	bottom: 24px;
+    	right: 7px;
+	}
+	.image_store b
+	{
+		float: left;
+	}
+	.info_prezzi 
+	{
+    line-height: 0.55;
+    margin-top: -7px;
+	}
+	
+	
+	
+}
+/*Layout tablet */
+@media screen and (min-width: 600px) and (max-width: 859px)
+{
+	.icon 
+	{
+    	width: 4.9vw;
+	}
+	.label 
+	{
+    	font-size: 2.5vw;
+    	top: 1.2vw;
+	}
+	.prod_img
+	{
+		/* border: 2px solid #465b79; */
+	}
+	.prod_img img
+	{
+		width: 40vw;
+    	height: 40vw;
+    	display: block;
+	}
+	.size_40
+	{
+		margin-top: 0%;
+	    width: 50%;
+   		margin-left: 1%;
+   		
+   		text-align: left;
+	}
+	.size_20 
+	{
+    	margin-top: 0%;
+    	width: 50%;
+    	margin-left: 1%;
+    	height: 7.5vw;
+	}
+	.info_prezzi 
+	{
+    	margin-left: 1%;
+	}
+	.list_item
+	{
+		font-size: 2.5vw;
+		margin-bottom: 2%;
+		border-bottom: 3px solid gray;
+	}
+	.image_store img
+	{
+		float: left;
+    	position: relative;
+    	bottom: 3.2vw;
+    	width: 9vw;
+    	height: 9vw;
+    	right: 0.67vw;
+	}
+	.image_store b
+	{
+		float: left;
+	}
+	.prod_action 
+	{
+    	clear: left;
+    	/* width: 100%; */
+    	text-align: center;
+    	margin-top: 0%;
+    	margin-bottom: 1%;
+    	
+    	
+    	width: 90%;
+	}
+	.prod_action form
+	{
+		float: left;
+		width: 50%;
+	}
+	.info_prezzi 
+	{
+		line-height: 1.5;
+	}
+	.info_prezzi p
+	{
+		margin: 0;
+	}
+	.disponibile
+	{
+		background: lime;
+    	width: 1.1vw;
+    	height: 1.1vw;
+    	float: left;
+    	border-radius: 9px;
+    	border: 1px solid #000000;
+    	margin-left: 5px;
+    	margin-top: 1.3vw;
+	}
+	.non_disponibile
+	{
+		background: #F44336;
+    	width: 1.1vw;
+    	height: 1.1vw;
+    	float: left;
+    	border-radius: 9px;
+    	border: 1px solid #000000;
+    	margin-left: 5px;
+    	margin-top: 1.3vw;
+	}
+}
+/* Layout desktop */
+@media screen and (min-width: 860px)
+{
+	.prod_img
+	{
+    	float: left;
+    	/* border: 2px solid #465b79; */
+	}
+	.prod_img img
+	{
+		width: 250px;
+   	 	height: 250px;
+	}
+	.size_40
+	{
+		/* width: 35%; */
+		width: 25%;
+    	margin-left: 1%;
+    	margin-top: 0%;
+	}
+	.size_20
+	{
+		width: 20%;
+    	margin-left: 1%;
+    	margin-top: 0%;
+	}
+	.image_store b
+	{
+		float: left;
+    	width: 100%;
+	}
+	.image_store img
+	{
+		float: left;
+    	width: 8vw;
+    	height: 7vw;
+    	position: relative;
+    	bottom: 2vw;
+    	right: 1vw;
+	}
+	.info_prezzi p
+	{
+		margin: 0;
+	}
+	.info_prezzi
+	{
+		line-height: 1.5;
+		width: 15%;
+	}
+	.list_item
+	{
+		margin-bottom: 1%;
+	}
+	.prod_action
+	{
+		float: left;
+    	width: 13%;
+    	margin-top: 0%;
+	}
+	.icon
+	{
+		width: 30px;
+		margin-left: 4%;
+	}
+	.label
+	{
+		font-size: 17px;
+    	top: 7px;
+	}
+	.disponibile
+	{
+		position: relative;
+    	top: 6px;
+	}
+	.non_disponibile
+	{
+		background: #F44336;
+    	width: 10px;
+    	height: 10px;
+		position: relative;
+    	top: 6px;
+	}
+}
+
+
+
+
+ 
+@media screen and (min-width: 860px) and (max-width: 1290px)
+{
+	.size_40 
+	{
+    
+    width: 22%;
+    margin-left: 1%;
+    margin-top: 0%;
+	}
+	
+	
+	.size_20 
+	{
+    width: 15%;
+    margin-left: 1%;
+    margin-top: 0%;
+	}
+}
+
+
+
+
+ 

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+
+#acquisti
+{
+	width: 70%;
+	display: inline-block;
+	border: 1px solid black; 
+	
+}
+
+#barralaterale
+{
+	width: 30%;
+	display: inline-block;
+	border: 1px solid black;
+}

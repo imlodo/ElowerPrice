@@ -1,0 +1,802 @@
+@charset "UTF-8";
+
+
+#ulNav li  /* stiamo definendo una lista in linea*/
+{
+	/*dobbiamo agire sui punti della lista e metterli in linea non a cascata come quella
+	di default */
+	
+	border: 1px solid black;
+	
+}
+
+
+section#section1 header
+{
+	background-color: aqua;
+	
+}
+
+section#section2
+{
+	display: table-cell;
+	vertical-align : top;
+	background: orange;
+	margin: 20px 20px 20px 20px;
+	width: 1000px;
+	height: 1000px;
+}
+
+
+
+
+aside
+{
+	
+	display : table-cell;
+	vertical-align : top;
+	border : 1px solid black;
+	width : 500px;
+	height: 500px;
+	
+	
+}
+
+p#ribassi_del_giorno
+{
+		display : marker;
+		border: 1px solid black;
+		width : 800px;
+		height: 400px;
+}
+
+p#prodotti_piu_cercati
+{
+		display : table-cell;
+		border: 1px solid black;
+		width : 800px;
+		height: 500px;
+}
+
+footer
+{
+	border: 1px solid black;
+	height: 100px;
+}
+
+
+
+
+/******************/
+
+
+
+@font-face
+{
+	font-family: robotoItalic;
+	src: url(/PROGETTO_TSW_UPDATE/font/Roboto-LightItalic.ttf);
+}
+@font-face 
+{
+	font-family: robotoCondensed;
+	src: url(/PROGETTO_TSW_UPDATE/font/Roboto-Condensed.ttf)
+}
+
+body
+{
+	background: #11998e;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#panel
+{
+	width: 330px;
+	margin-top: 70px;
+    background: white;
+    padding: 35px;
+    -webkit-box-shadow: 5px 5px 30px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 5px 5px 30px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 5px 5px 30px 0px rgba(50, 50, 50, 0.75);
+    line-height: 1;
+}
+#logo
+{
+	position: relative;
+    bottom: 10px;
+	width: 350px;
+	right: 9px;
+}
+.field
+{
+	font-family: robotoItalic,sans-serif;	
+	padding: 5px;
+    font-size: 18px;
+    border-width: 0px;
+    border-color: #ffffff;
+    background-color: #ececec;
+    color: #000000;
+    border-style: solid;
+    border-radius: 0px;
+    box-shadow: 0px 0px 1px rgba(66, 66, 66, .75);
+    text-shadow: 0px 0px 0px rgba(66, 66, 66, .100);
+    margin-bottom: 3%;
+    width: 245px;
+}
+.field::placeholder 
+{
+  font-size: 15px;
+}
+
+#titolo
+{
+	position: relative;
+    bottom: 12px;
+	font-family: robotoCondensed,sans-serif;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #333333;
+    right: 9px;
+}
+ 
+.btn
+{
+	font-family: robotoCondensed,sans-serif;
+    font-size: 15px;
+    border: none;
+        width: 125px;
+    height: 30px;
+    text-align: center;
+    color: rgba(255,255,255,0.9);
+    border-radius: 50px;
+    background: linear-gradient(-45deg, #28cc84, #129b8d, #004e47, #139d8e);
+    background-size: 600%;
+    -webkit-animation: anime 16s linear infinite;
+    animation: anime 16s linear infinite;
+    margin-top: 3%;
+}
+.btn2
+{
+	font-family: robotoCondensed,sans-serif;
+    font-size: 15px;
+    border: none;
+    width: 125px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 3%;
+}
+@-webkit-keyframes anime {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes anime {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+#checkTrueUsername
+{
+	position: relative;
+    top: 3px;
+    left: 5px;
+	display: none;
+    width:24px;
+}
+
+#checkFalseUsername
+{
+    position: relative;
+    top: 7px;
+    left: 5px;
+    width: 24px;
+    display: none;
+} 
+
+#checkTrueEmail
+{
+	position: relative;
+    top: 3px;
+    left: 5px;
+	display: none;
+    width:24px;
+}
+
+#checkFalseEmail
+{
+    position: relative;
+    top: 7px;
+    left: 5px;
+    width: 24px;
+    display: none;
+} 
+
+#checkTruePassword
+{
+	position: relative;
+    top: 3px;
+    left: 5px;
+	display: none;
+    width:24px;
+}
+
+#checkFalsePassword
+{
+    position: relative;
+    top: 7px;
+    left: 5px;
+    width: 24px;
+    display: none;
+}
+
+#checkTruePassword2
+{
+	position: relative;
+    top: 3px;
+    left: 5px;
+	display: none;
+    width:24px;
+}
+
+#checkFalsePassword2
+{
+    position: relative;
+    top: 7px;
+    left: 5px;
+    width: 24px;
+    display: none;
+}  
+
+#checkTrueName
+{
+	position: relative;
+    top: 3px;
+    left: 5px;
+	display: none;
+    width:24px;
+}
+
+#checkFalseName
+{
+    position: relative;
+    top: 7px;
+    left: 5px;
+    width: 24px;
+    display: none;
+} 
+
+#checkTrueSurname
+{
+	position: relative;
+    top: 3px;
+    left: 5px;
+	display: none;
+    width:24px;
+}
+
+#checkFalseSurname
+{
+    position: relative;
+    top: 7px;
+    left: 5px;
+    width: 24px;
+    display: none;
+}   
+
+#checkTrueCF
+{
+	position: relative;
+    top: 3px;
+    left: 5px;
+	display: none;
+    width:24px;
+}
+
+#checkFalseCF
+{
+    position: relative;
+    top: 7px;
+    left: 5px;
+    width: 24px;
+    display: none;
+}   
+
+form
+{
+	position: relative;
+	bottom: 9px;
+	right: 1px;
+} 
+
+#error
+{
+	width: 380px;
+    position: sticky;
+    z-index: 1;
+    background-color: rgba(215, 44, 44, 0.9);
+    color: white;
+    -webkit-box-shadow: 5px 5px 30px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 5px 5px 30px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 5px 5px 30px 0px rgba(50, 50, 50, 0.75);
+    margin: 0 auto;
+}
+
+#closeError
+{
+	width: 30px;
+    right: 20px;
+    bottom: 20px;
+    z-index: 2;
+    background: white;
+    border-radius: 30px;
+    position: relative;
+}
+
+#lab_err
+{
+	margin-left: 80px;
+}
+#fix_error_panel
+{
+	margin-bottom: -27px
+}
+
+/* Layout responsive */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+and (orientation : portrait) 
+{
+	#lab_err 
+	{
+   		margin-left: 135px;
+	}	
+	#closeError
+	{
+		width: 60px;
+    	right: 30px;
+	}
+	#error 
+	{
+		width: 680px;
+		font-size: 30px;
+		left: 140px;
+		top: 157px;
+	}
+	#panel
+	{	
+		position: absolute;
+    	top: 100px;
+    	right: 100px;
+    	width: 700px;
+	}
+	#logo
+	{
+		width: 585px;
+	}
+	#titolo
+	{
+		font-size: 55px;
+	}
+	.field 
+	{
+		font-size: 47px;
+    	width: 470px;
+	}
+	.field::placeholder
+	{
+		font-size: 40px;
+	}
+	#checkFalseName 
+	{
+    	left: 20px;
+    	width: 40px;
+	}
+	#checkTrueName
+	{
+		left:20px;
+		width: 40px;
+	}
+	#checkTrueUsername
+	{
+		left: 20px;
+   		width: 40px;
+	}
+
+	#checkFalseUsername
+	{
+    	left: 20px;
+   		width: 40px;
+	} 
+
+	#checkTrueEmail
+	{
+		left: 20px;
+   		width: 40px;
+	}
+
+	#checkFalseEmail
+	{
+    	left: 20px;
+   		width: 40px;
+	} 
+
+	#checkTruePassword
+	{
+		left: 20px;
+   		width: 40px;
+	}
+
+	#checkFalsePassword
+	{
+    	left: 20px;
+   		width: 40px;
+	}	
+
+	#checkTruePassword2
+	{
+		left: 20px;
+   		width: 40px;
+	}
+
+	#checkFalsePassword2
+	{
+   		left: 20px;
+   		width: 40px;
+	}  
+
+	#checkTrueName
+	{
+		left: 20px;
+   		width: 40px;
+	}
+
+	#checkFalseName
+	{
+    	left: 20px;
+   		width: 40px;
+	} 
+
+	#checkTrueSurname
+	{
+		left: 20px;
+   		width: 40px;
+	}
+
+	#checkFalseSurname
+	{
+    	left: 20px;
+   		width: 40px;
+	}   
+
+	#checkTrueCF
+	{
+		left: 20px;
+   		width: 40px;
+	}
+
+	#checkFalseCF
+	{
+    	left: 20px;
+   		width: 40px;
+	}   
+	.btn
+	{
+		width: 235px;
+    	height: 50px;
+    	font-size: 40px;
+	}
+	.btn2
+	{
+		width: 235px;
+    	height: 50px;
+    	font-size: 40px;
+	}
+}
+
+/*Smartphone landscape*/ 
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 824px)
+and (orientation : landscape) 
+{
+	#panel
+	{
+		width: 320px;
+    	height: 310px;
+    	margin-left: 290px;
+	}
+	#reg
+	{
+		position: relative;
+   		bottom: 9px;
+    	right: 5px;
+	}
+	#regnome
+	{
+		float:left;
+		left: 0 !important;;
+	}
+	#regcognome
+	{
+		position: relative;
+    	left: 17px;
+   	 	float: left;
+	}
+	#regcf
+	{
+		float: left;
+		left: 0 !important;;
+		clear:left;
+	}
+	#regemail
+	{
+		position: relative;
+    	left: 17px;
+   	 	float: left;
+	}
+	#reguser
+	{
+		float: left;
+		left: 0 !important;
+		clear:left;
+	}
+	#regpw
+	{
+		float: left;
+    	left: 17px;
+    	position: relative;
+    	
+	}	
+	#regconfpw
+	{
+		float:left;
+		left: 0 !important;
+		clear:left;
+	}
+	.btn
+	{
+		clear: left;
+    	float: left;
+    	margin-right: 15px;
+    	margin-left: 30px;
+    	margin-top: 15px;
+	}
+	.btn2
+	{
+    	float: left;
+    	margin-top: 15px;
+	}
+	.field
+	{
+		width: 120px;
+		font-size:13px;
+		margin-bottom: 10px;
+	}
+	.field::placeholder
+	{
+		font-size:12px;
+	}
+	#error
+	{
+		left: 295px;
+	}
+	#checkFalseName 
+	{
+    	left: 3px;
+    	width: 20px;
+	}
+	#checkTrueName
+	{
+		left: 3px;
+    	width: 20px;
+	}
+	#checkTrueUsername
+	{
+		left: 3px;
+    	width: 20px;
+	}
+
+	#checkFalseUsername
+	{
+    	left: 3px;
+    	width: 20px;
+	} 
+
+	#checkTrueEmail
+	{
+		left: 3px;
+    	width: 20px;
+	}
+
+	#checkFalseEmail
+	{
+    	left: 3px;
+    	width: 20px;
+	} 
+
+	#checkTruePassword
+	{
+		left: 3px;
+    	width: 20px;
+	}
+
+	#checkFalsePassword
+	{
+    	left: 3px;
+    	width: 20px;
+	}	
+
+	#checkTruePassword2
+	{
+		left: 3px;
+    	width: 20px;
+	}
+
+	#checkFalsePassword2
+	{
+   		left: 3px;
+    	width: 20px;
+	}  
+
+	#checkTrueName
+	{
+		left: 3px;
+    	width: 20px;
+	}
+
+	#checkFalseName
+	{
+    	left: 3px;
+    	width: 20px;
+	} 
+
+	#checkTrueSurname
+	{
+		left: 3px;
+    	width: 20px;
+	}
+
+	#checkFalseSurname
+	{
+    	left: 3px;
+    	width: 20px;
+	}   
+
+	#checkTrueCF
+	{
+		left: 3px;
+    	width: 20px;
+	}
+
+	#checkFalseCF
+	{
+		left: 3px;
+    	width: 20px;
+	}
+}
+
+/* /* iPads (portrait and landscape) ----------- 
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+	
+	#panel
+	{
+		margin-left: 290px;
+	}
+} */
+ 
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) 
+{
+	#panel
+	{
+		margin-top: 10% !important;
+    	position: relative;
+   	 	bottom: 50px;
+	}
+}
+ 
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) 
+{
+	#panel
+	{
+		margin: auto !important;
+    	margin-left: 290px !important;
+    	margin-top: 38px !important;
+    	
+	}
+	#error 
+	{
+		left: 295px;
+		top: 25px;
+	}
+}
+ 
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 500px) and (max-width : 1223px)
+{
+
+	#panel
+	{
+		margin: 0 auto;
+        margin-top: 5%;
+	}
+}
+
+@media only screen
+and (min-width : 1224px) and (max-width : 1699px)
+{
+
+	#panel
+	{
+		margin: 0 auto;
+        margin-top: 5%;
+	}
+}
+ 
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1700px) 
+{
+	#panel
+	{
+		margin: 50px auto;
+    	width: 400px;
+    	padding: 75px;
+	}
+	.field
+	{
+	    font-size: 25px;
+		width: 325px;
+	}
+	.field::placeholder
+	{
+		font-size: 22px;
+	}
+	#error
+	{
+		font-size: 25px;
+   		width: 550px;
+	}
+	.btn
+	{
+		font-size: 22px;
+    	width: 150px;
+    	height: 35px;
+   	 	margin-right: 10px;
+	}
+	.btn2
+	{
+		font-size: 22px;
+		width: 150px;
+    	height: 35px;
+	}
+}

@@ -1,0 +1,27 @@
+@charset "UTF-8";
+button
+{
+	padding: 7px;
+    color: white;
+    background: #1b1b1b;
+    border: none;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+button:hover
+{
+	background: #009444;
+	cursor: pointer;
+}
+
+.delete:hover
+{
+	background: #d32633;
+	cursor: pointer;
+	margin-left: 0.7%;
+}
+
+textarea.field
+{
+    vertical-align: text-top;
+}

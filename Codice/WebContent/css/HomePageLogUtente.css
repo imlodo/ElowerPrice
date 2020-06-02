@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+#ulNav li  /* stimao definendo una lista in linea*/
+{
+	/*dobbiamo agire sui punti della lista e metterli in linea non a cascata come è
+	di default */
+	
+	border: 1px solid black;
+	
+}
+
+
+section#section1 header
+{
+	background-color: aqua;
+	
+}
+
+section#section2
+{
+	display: table-cell;
+	vertical-align : top;
+	background: orange;
+	margin: 20px 20px 20px 20px;
+	width: 1000px;
+	height: 1000px;
+}
+
+
+
+
+aside
+{
+	
+	display : table-cell;
+	vertical-align : top;
+	border : 1px solid black;
+	width : 500px;
+	height: 500px;
+	
+	
+}
+
+p#ribassi_del_giorno
+{
+		display : marker;
+		border: 1px solid black;
+		width : 800px;
+		height: 400px;
+}
+
+p#prodotti_piu_cercati
+{
+		display : table-cell;
+		border: 1px solid black;
+		width : 800px;
+		height: 500px;
+}
+
+footer
+{
+	border: 1px solid black;
+	height: 100px;
+}

@@ -1,0 +1,1271 @@
+@charset "UTF-8";
+
+@font-face
+{
+	font-family: robotoItalic;
+	src: url(/PROGETTO_TSW_UPDATE/font/Roboto-LightItalic.ttf);
+}
+@font-face 
+{
+	font-family: robotoCondensed;
+	src: url(/PROGETTO_TSW_UPDATE/font/Roboto-Condensed.ttf)
+}
+*
+{
+	font-family: robotoCondensed,Verdana, sans-serif;
+}
+body
+{
+	margin: 0 auto;
+}
+#logo {
+	width: 40%;
+	margin-top: 1%;
+}
+.image_prodotti
+{
+	width: 70px;
+}
+.fix_desc{vertical-align: top;}
+/* width */
+.cont_table::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.cont_table::-webkit-scrollbar-track {
+   background: #909090;
+}
+ 
+/* Handle */
+.cont_table::-webkit-scrollbar-thumb {
+  background: #1b1b1b; 
+}
+
+/* Handle on hover */
+.cont_table::-webkit-scrollbar-thumb:hover {
+  background: #6f7392; 
+}
+
+.operationTop
+{
+	display: table;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1%;
+   	border-top: 3px solid #1b1b1b;
+    border-bottom: 3px solid #1b1b1b;
+}
+.opTopF
+{
+	width: 25%;
+    display: table-cell;
+    padding: 2%;
+    background: #e6e6e6;
+    cursor: pointer;
+}
+.opTopF:hover
+{
+    background: #d32633;
+}
+.opTopF2
+{
+	width: 25%;
+    display: table-cell;
+    padding: 2%;
+    background: #e6e6e6;
+    cursor: pointer;
+}
+.opTopF2:hover
+{
+    background: #009444;
+}
+.operationTop label
+{
+	color:black;
+	cursor:pointer;
+}
+
+.opTopF2:hover label
+{
+	color:white;
+}
+.opTopF:hover label
+{
+	color:white;
+}
+
+
+nav 
+{
+	background-color: #464646;
+    height: auto;
+    float: left;
+    width: 20%;
+    display: table;
+    text-align: center;
+}
+
+aside {
+	float: right;
+	width: 35%;
+	border: 1px solid black;
+}
+
+#buttonNOBorder {
+	padding: 0;
+	border: none;
+	background: none;
+	color: blue;
+}
+.logo
+{
+	text-align: center;
+}
+section#section2 {
+	border: 1px solid black;
+	float: left;
+	width: 64%;
+}
+
+textarea {
+	overflow-y: scroll;
+}
+
+.menu {
+	border-bottom: 1px solid white;
+}
+
+.figlio 
+{
+	width: 100%;
+    margin-bottom: 20px;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+.headrow
+{
+ 	border-bottom: 1px solid white;
+    float: left;
+    display: table-cell;
+    width: 100%;
+}
+
+#op {
+	clear: left;
+    display: none;
+}
+#op2
+{
+	display: none;
+}
+#subOp
+{
+	display: none;
+	clear: left;
+}
+
+#subOp2
+{
+	display: none;
+	clear: left;
+}
+#subOp3
+{
+	display: none;
+	clear: left;
+}
+
+.opDB {
+	margin-right: 3%;
+}
+
+.opHomePage {
+	margin-right: 3%;
+}
+
+.opLogin {
+	margin-right: 3%;
+}
+
+.opAreaUtente {
+	margin-right: 3%;
+}
+
+.opDatiUtente {
+	margin-right: 3%;
+}
+
+.OPProdotto {
+	margin-right: 3%;
+}
+
+.OPRicercaProdotto {
+	margin-right: 3%;
+}
+
+.OPCarrello {
+	margin-right: 3%;
+}
+
+.subOpUserManager {
+	margin-right: 3%;
+}
+
+.subOpProdottiManager {
+	margin-right: 3%;
+}
+
+.subOpStoreManager {
+	margin-right: 3%;
+}
+
+a:link {
+	text-decoration: none;
+	color: white;
+}
+
+a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+#saveCSS {
+	clear: left;
+    float: left;
+    width: 50%;
+}
+
+#annullaCSS {
+    float: left;
+    width: 50%;
+}
+#PanelHomePage
+{
+	overflow: auto;
+	float: left;
+	width: 100%;
+}
+#contentOP 
+{
+    display: table-cell;
+    float: left;
+    width: 78%;
+    margin-left: 1%;
+}
+
+.figlioOP
+{
+	width: 100%;
+    cursor: pointer;
+    float: left;
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+    justify-content: center;
+}
+
+.figlioSubOP
+{
+	width: 100%;
+    cursor: pointer;
+    float: left;
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+    justify-content: center;
+}
+
+.iconAdmin
+{
+	display: inline-block;
+    vertical-align: middle;
+    width: 35px;
+    margin: 1%;
+    margin-left: 0;
+    margin-right: 0;
+    position: inherit;
+}
+.operationTop label
+{
+	cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+}
+.iconAdminF
+{
+	display: inline-block;
+    vertical-align: middle;
+    width: 35px;
+    margin: 1%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Add user */
+#panelCreateUser
+{
+	    background: #464646;
+    width: auto;
+    line-height: 1;
+}
+.field
+{
+	font-family: robotoItalic,sans-serif;
+    padding: 5px;
+    font-size: 18px;
+    border-width: 0px;
+    border-color: #ffffff;
+    background-color: #ececec;
+    color: #000000;
+    border-style: solid;
+    border-radius: 0px;
+    box-shadow: 0px 0px 1px rgba(66, 66, 66, .75);
+    text-shadow: 0px 0px 0px rgba(66, 66, 66, .100);
+    width: 50%;
+    margin-bottom: 1%;
+    resize: none;
+}
+.field::placeholder 
+{
+  font-size: 15px;
+}
+
+#titolo
+{
+	font-family: robotoCondensed,sans-serif;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    background: #1b1b1b;
+    float: left;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+}
+ 
+.btn
+{
+	font-family: robotoCondensed,sans-serif;
+    font-size: 15px;
+    width: 50%;
+    color: rgba(255,255,255,0.9);
+    display: table-cell;
+    background: #1b1b1b;
+    border: none;
+    padding: 1%;
+    cursor: pointer;
+    border-right: 3px solid #464646;
+}
+.btn2
+{
+	font-family: robotoCondensed,sans-serif;
+    font-size: 15px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    display: table-cell;
+    background: #1b1b1b;
+    color: white;
+    width: 50%;
+    padding: 1%;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover
+{
+	background: #009444;
+}
+.btn2:hover
+{
+	background: #d32633;
+}
+
+#checkTrueUsername
+{
+	position: relative;
+    top: 3px;
+    left: 5px;
+	display: none;
+    width:24px;
+}
+
+#checkFalseUsername
+{
+    position: relative;
+    top: 7px;
+    left: 5px;
+    width: 24px;
+    display: none;
+} 
+
+#checkTrueEmail
+{
+	position: relative;
+    top: 3px;
+    left: 5px;
+	display: none;
+    width:24px;
+}
+
+#checkFalseEmail
+{
+    position: relative;
+    top: 7px;
+    left: 5px;
+    width: 24px;
+    display: none;
+} 
+
+#checkTruePassword
+{
+	position: relative;
+    top: 3px;
+    left: 5px;
+	display: none;
+    width:24px;
+}
+
+#checkFalsePassword
+{
+    position: relative;
+    top: 7px;
+    left: 5px;
+    width: 24px;
+    display: none;
+}
+
+#checkTruePassword2
+{
+	position: relative;
+    top: 3px;
+    left: 5px;
+	display: none;
+    width:24px;
+}
+
+#checkFalsePassword2
+{
+    position: relative;
+    top: 7px;
+    left: 5px;
+    width: 24px;
+    display: none;
+}  
+
+#checkTrueName
+{
+	position: relative;
+    top: 3px;
+    left: 5px;
+	display: none;
+    width:24px;
+}
+
+#checkFalseName
+{
+    position: relative;
+    top: 7px;
+    left: 5px;
+    width: 24px;
+    display: none;
+} 
+
+#checkTrueSurname
+{
+	position: relative;
+    top: 3px;
+    left: 5px;
+	display: none;
+    width:24px;
+}
+
+#checkFalseSurname
+{
+    position: relative;
+    top: 7px;
+    left: 5px;
+    width: 24px;
+    display: none;
+}   
+
+#checkTrueCF
+{
+	position: relative;
+    top: 3px;
+    left: 5px;
+	display: none;
+    width:24px;
+}
+
+#checkFalseCF
+{
+    position: relative;
+    top: 7px;
+    left: 5px;
+    width: 24px;
+    display: none;
+}   
+
+form
+{
+	    width: auto;
+    height: auto;
+} 
+
+#error
+{
+	z-index: 1;
+    background-color: rgba(215, 44, 44, 0.9);
+    color: white;
+    position: absolute;
+    -webkit-box-shadow: 5px 5px 30px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 5px 5px 30px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 5px 5px 30px 0px rgba(50, 50, 50, 0.75);
+}
+
+#closeError
+{
+	z-index: 2;
+    background: white;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    width: 30px;
+}
+
+#lab_err
+{
+	margin-left: 80px;
+}
+#fix_error_panel
+{
+	margin-bottom: -27px
+}
+
+#bodyArea
+{
+	/* display: table; */
+	width: 100%;
+}
+
+.figlioOP label
+{
+   	cursor: pointer;
+    color: white;
+    display: inline-block;
+    width: 45%;
+    vertical-align: middle;
+}
+.figlioOP:hover
+{
+	background:#bfbfbf;
+}
+
+.figlioOP:hover label
+{
+	color: black;
+}
+.figlioSubOP .iconAdmin
+{
+	position: inherit;
+	width: 35px;
+}
+.figlioSubOP label
+{
+	cursor: pointer;
+    color: white;
+    display: inline-block;
+    width: 45%;
+    vertical-align: middle;
+}
+.figlioSubOP:hover
+{
+	background:#bfbfbf;
+}
+
+.figlioSubOP:hover label
+{
+	color: black;
+}
+.title
+{
+	display: flex;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: #1b1b1b;
+    color: white;
+    justify-content: center;
+}
+#regnome
+{
+	position: inherit !important;
+}
+#regcognome
+{
+	position: inherit !important;
+}
+#regcf
+{
+	position: inherit !important;
+}
+#regemail
+{
+	position: inherit !important;
+}
+#reguser
+{
+	position: inherit !important;
+}
+#regpw
+{
+	position: inherit !important;
+}
+#regconfpw
+{
+	position: inherit !important;
+}
+
+#regnome label
+{
+	display: inline-block;
+    width: 150px;
+    text-align: start;
+    color: white;
+}
+#regcognome label
+{
+	display: inline-block;
+    width: 150px;
+    text-align: start;
+    color: white;
+}
+#regcf label
+{
+	display: inline-block;
+    width: 150px;
+    text-align: start;
+    color: white;
+}
+#regemail label
+{
+	display: inline-block;
+    width: 150px;
+    text-align: start;
+    color: white;
+}
+#reguser label
+{
+	display: inline-block;
+    width: 150px;
+    text-align: start;
+    color: white;
+}
+#regpw label
+{
+	display: inline-block;
+    width: 150px;
+    text-align: start;
+    color: white;
+}
+#regconfpw label
+{
+	display: inline-block;
+    width: 150px;
+    text-align: start;
+    color: white;
+}
+#content_Prodotti
+{
+	background: #464646;
+    width: auto;
+    line-height: 1;
+    clear: left;
+}
+#form_add_product
+{
+	color: white;
+}
+#form_add_product select
+{
+	width: 51%;
+}
+#formAPContent
+{
+	text-align:center;
+}
+#formAPContent label
+{
+	display: inline-block;
+    width: 210px;
+    color: white;
+    text-align: start;
+}
+#normSend
+{
+	font-family: robotoCondensed,sans-serif;
+    font-size: 15px;
+    width: 100%;
+    color: rgba(255,255,255,0.9);
+    display: table-cell;
+    background: #1b1b1b;
+    border: none;
+    padding: 1%;
+    cursor: pointer;
+   
+}
+#normSend:hover
+{
+	background: #009444;
+}
+.l
+{
+	font-family: robotoCondensed,sans-serif;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    background: #1b1b1b;
+    float: left;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+}
+.l2
+{
+	font-family: robotoCondensed,sans-serif;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    background: #1b1b1b;
+    float: left;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#formAPContent #result
+{
+	color: #f31223;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+#menuV
+{
+	background: #6f7392;
+    color: white;
+    float: left;
+    width: 100%;
+}
+
+#menuV label
+{
+	float: left;
+    width: 33%;
+    padding: 1%;
+    text-align: center;
+}
+
+#menuV button
+{
+	float: left;
+    width: 32%;
+    padding: 1.1%;
+    background: #6f7392;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-left: 5px solid #464646;
+}
+
+#menuV button:hover
+{
+	 background: #6b8490;
+	 cursor: pointer;
+}
+#menuV select
+{
+	font-family: robotoItalic,sans-serif;
+    font-size: 14px;
+    border-color: #ffffff;
+    background-color: #ececec;
+    color: #000000;
+}
+#add_store
+{
+	background: #464646;
+}
+
+#table
+{
+	width: 100%;
+    float: left;
+    background: #464646;
+    color: white;
+    text-align: center;
+}
+
+#cssView
+{
+	resize: none;
+    margin-bottom: 0%;
+    float: left;
+    width: 98%;
+    background: #464646;
+    color: white;
+    padding: 1%;
+}
+
+.formCSS label
+{
+	float: left;
+	width: 100%;
+	margin-bottom: 0%;
+}
+#PanelHomePage form
+{
+	width: max-content;
+	width: 100%;
+    width: -webkit-fill-available;
+	float: left;
+}
+#PanelHomePage button
+{
+	float: left;
+    width: 50%;
+    padding: 1.1%;
+    background: #6f7392;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+#PanelHomePage #saveCSS
+{
+	border-right: 5px solid #464646;
+}
+#PanelHomePage button:hover
+{
+	 background: #6b8490;
+	 cursor: pointer;
+}
+#label_tp
+{
+	background: #6f7392;
+    color: white;
+    float: left;
+    width: 98%;
+    padding: 1%;
+    text-align: center;
+}
+#content_Prodotti
+{
+   	overflow: auto;
+}
+.cont_table
+{
+   	overflow: auto;
+   	float: left;
+    width: 100%;
+}
+
+
+/* Responsive */
+
+/* Layout smartphone */
+@media screen and (max-width: 599px)
+{
+	#logo
+	{
+		width:75%;
+	}
+	.operationTop
+	{
+		display: block;
+		float: left;
+	}
+	#op
+	{
+		width: inherit;
+	}
+	#subOp
+	{
+		width: inherit;
+	}
+	#subOp2
+	{
+		width: inherit;
+	}
+	#subOp3
+	{
+		width: inherit;
+	}
+	.opTopF
+	{
+		width: -webkit-fill-available;
+		width: -moz-available;
+		justify-items: center;
+   	 	display: grid;
+	}
+	.opTopF2
+	{
+		width: -webkit-fill-available;
+		width: -moz-available;
+		justify-items: center;
+    	display: grid;
+	}
+	#bodyArea
+	{
+		display: block;
+	}
+	nav
+	{
+		width: 100%;
+	}
+	.figlioOP label 
+	{
+		margin-top: 0%;
+		margin-left: 0%;
+	}
+	#contentOP
+	{
+		overflow: auto;
+		width: inherit;
+		margin-left: 0%;
+		margin-top: 2%;
+	}
+	#error
+	{
+		position: static;
+	}
+	#regnome label
+	{
+    	width: 70px;
+    }
+	#regcognome label
+	{
+    	width: 70px;
+    }
+	#regcf label
+	{
+    	width: 70px;
+    }
+	#regemail label
+	{
+    	width: 70px;
+    }
+	#reguser label
+	{
+    	width: 70px;
+    }
+	#regpw label
+	{
+    	width: 70px;
+    }
+	#regconfpw label
+	{
+    	width: 70px;
+    }
+    #menuV label 
+    {
+    	padding: 0%;
+        padding-top: 1%;
+    	padding-bottom: 1%;
+   	 	width: 100%;
+    }
+    #menuV button
+    {
+    	width: 100%;
+    	border: none;
+    	border-top: 3px solid #464646;
+    }
+    #image_send
+    {
+    	font-size: 14px;
+    }
+    #form_add_product select
+    {
+    	font-size: 14px;
+    	width: 52%;
+    }
+    #content_Prodotti
+   	{
+   		font-size: 14px;
+   		overflow: auto;
+   	}
+   	.cont_table
+   	{
+   		overflow: auto;
+    	float: left;
+    	width: 100%;
+   	}
+   	.iconAdmin
+   	{
+   		position: inherit;
+    	top: 0;
+    	right: 0;
+   	}
+   	.title
+   	{
+   		padding-top: 3%;
+    	padding-bottom: 3%;
+   	}
+   	.figlioOP
+   	{
+   		padding-bottom: 1.5%;
+    	padding-top: 1.5%;
+   	}
+   	.figlioOP label
+   	{
+   		width: 22%;
+   	}
+   	.figlioSubOP
+   	{
+   		padding-bottom: 1.5%;
+    	padding-top: 1.5%;
+   	}
+   	.figlioSubOP label
+   	{
+   		width: 22%;
+   	}
+}
+
+/* Layout Tablet */
+@media screen and (min-width: 600px) and (max-width: 859px)
+{
+	#logo
+	{
+		width:50%;
+	}
+	#op
+	{
+		width: inherit;
+	}
+	#subOp
+	{
+		width: inherit;
+	}
+	#subOp2
+	{
+		width: inherit;
+	}
+	#subOp3
+	{
+		width: inherit;
+	}
+	#bodyArea
+	{
+		display: block;
+	}
+	nav
+	{
+		width: 100%;
+	}
+	.figlioOP label 
+	{
+		margin-top: 0%;
+		margin-left: 0%;
+	}
+	#contentOP
+	{
+		overflow: auto;
+		width: inherit;
+		margin-left: 0%;
+		margin-top: 2%;
+	}
+	#error
+	{
+		position: static;
+	}
+	#regnome label
+	{
+    	width: 70px;
+    }
+	#regcognome label
+	{
+    	width: 70px;
+    }
+	#regcf label
+	{
+    	width: 70px;
+    }
+	#regemail label
+	{
+    	width: 70px;
+    }
+	#reguser label
+	{
+    	width: 70px;
+    }
+	#regpw label
+	{
+    	width: 70px;
+    }
+	#regconfpw label
+	{
+    	width: 70px;
+    }
+    #menuV label 
+    {
+    	padding: 0%;
+        padding-top: 1%;
+    	padding-bottom: 1%;
+   	 	width: 100%;
+    }
+    #menuV button
+    {
+    	width: 100%;
+    	border: none;
+    	border-top: 3px solid #464646;
+    }
+    #image_send
+    {
+    	font-size: 14px;
+    }
+    #form_add_product select
+    {
+    	font-size: 14px;
+    	width: 52%;
+    }
+    #content_Prodotti
+   	{
+   		font-size: 14px;
+   		overflow: auto;
+   	}
+   	.cont_table
+   	{
+   		overflow: auto;
+    	float: left;
+    	width: 100%;
+   	}
+   	.title
+   	{
+   		padding-top: 2%;
+    	padding-bottom: 2%;
+   	}
+   	.figlioOP
+   	{
+   		padding-bottom: 0.5%;
+    	padding-top: 0.5%;
+   	}
+   	.figlioOP label
+   	{
+   		width: 16%;
+   	}
+   	.figlioSubOP
+   	{
+   		padding-bottom: 0.5%;
+    	padding-top: 0.5%;
+   	}
+   	.figlioSubOP label
+   	{
+   		width: 16%;
+   	}
+}
+
+/* Layout schermi grandi (NON SERVE SI RIDIMENSIONA A SECONDA DELLA GRANDEZZA DELLO SCHERMO)*/
+/* @media screen and (min-width: 1921px)
+{
+	.operationTop
+	{
+		font-size: 35px;
+	}
+	nav
+	{
+		font-size: 30px;
+	}
+	.iconAdmin 
+	{
+    	width: 65px;
+	}
+	.figlioSubOP .iconAdmin 
+	{
+		width: 65px;
+	}
+	.iconAdminF
+	{
+		width: 65px;
+	}
+	.l2
+	{
+		font-size: 35px;
+	}
+	#table
+	{
+		font-size: 30px;
+	}
+	#label_tp
+	{
+		font-size: 35px;
+	}
+	#tipo_prodotto
+	{
+		font-size: 30px;
+	}
+	#titolo
+	{
+		font-size: 35px;
+	}
+	form
+	{
+		font-size: 30px;
+	}
+	.field
+	{
+		font-size: 30px;
+		padding: 10px;
+	}
+	.field::placeholder
+	{
+		font-size: 30px;
+	}
+	.btn
+	{
+		font-size: 30px;
+	}
+	.btn2
+	{
+		font-size: 30px;
+	}
+	#regconfpw label, #regpw label, #reguser label,#regemail label,#regcf label,
+	#regcognome label, #regnome label,#formAPContent label
+	{
+		width: 260px;
+	}
+	#normSend
+	{
+		font-size: 30px;
+	}
+	.l
+	{
+		font-size: 35px;
+	}
+	#menuV label
+	{
+		font-size: 30px;
+	}
+	#menuV button
+	{
+		font-size: 30px;
+	}
+	#menuV select
+	{
+		font-size: 30px;
+	}
+	#error
+	{
+		font-size: 30px;
+	}
+	#closeError
+	{
+	    width: 60px;
+    	border-radius: 30px;
+	}
+	#PanelHomePage button
+	{
+		font-size: 30px;
+	}
+} */

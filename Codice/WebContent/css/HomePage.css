@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+
+#ulNav li  /* stiamo definendo una lista in lin*/
+{
+	/*dobbiamo agire sui punti della lista e metterli in linea non a cascata come quella
+	di default */
+	border: 1px solid black;
+	
+}
+body button
+{
+	cursor:pointer;
+}
+
+section#section1 header
+{
+	background-color: aqua;
+	overflow: scroll;
+	
+}
+
+#section2
+{
+	/* display: inline-block;
+	vertical-align : top;
+	background: orange;
+	margin: 20px 20px 20px 20px;
+	width: 20%;
+	height: 1000px; 
+	overflow: scroll; */
+	
+	width : 80%;
+	height: 70%;
+	border: 2px solid black;
+	display: inline-block;
+	overflow: scroll;
+	
+}
+
+#section2 button
+{
+	background: #141a23;
+    border: none;
+    color: white;
+}
+
+
+aside
+{
+	
+	display : table-cell; 
+	
+	vertical-align : top;
+	border : 1px solid black;
+	/* width : 500px;
+	height: 500px; */
+	width : 12%;
+	height: 70%;
+	
+	
+}
+
+p#ribassi_del_giorno
+{
+	/* display : marker; */
+	display : table-cell;
+	border: 1px solid black;
+	width : 900px;
+	height: 500px;
+	overflow: scroll;
+}
+
+p#prodotti_piu_cercati
+{
+	display : table-cell;
+	border: 1px solid black;
+	width : 900px;
+	height: 500px;
+	overflow: scroll;
+}
+
+article
+{
+	width : 100%;
+	/* height: 500px; */
+	height: 25%;
+	overflow: scroll;
+	
+}
+
+footer
+{
+	border: 2px solid black;
+	height: 100px;
+	width: 100%;
+}
+
+
+#prod1, #prod2, #prod3, #prodPiuCercati1 , #prodPiuCercati2 , #prodPiuCercati3
+{
+	width : 400px;
+	height: 400px;
+	border: 2px solid black;
+	display: inline-block;
+	overflow: scroll;
+	
+}
+
+
+.buttonNOBorder
+{
+	padding: 0;
+	border: none;
+	background: none;
+	color : blue;
+}
+
+
+
+#asideHomePage
+{
+	position: relative;
+	width : 20%;
+	height: 100%;
+	border: 2px solid black;
+	display: inline-block;
+	overflow: scroll;
+	float:left;
+	clear:left;	
+}

@@ -1,0 +1,582 @@
+@charset "UTF-8";
+/* Dichiariazione di alcuni font */
+@font-face
+{
+	font-family: robotoItalic;
+	src: url(/PROGETTO_TSW_UPDATE/font/Roboto-LightItalic.ttf);
+}
+@font-face 
+{
+	font-family: robotoCondensed;
+	src: url(/PROGETTO_TSW_UPDATE/font/Roboto-Condensed.ttf)
+}
+@font-face 
+{
+	font-family: robotoMedium;
+	src: url(/PROGETTO_TSW_UPDATE/font/Roboto-Medium.ttf)
+}
+
+/* Regole generali */
+*
+{
+	font-family: robotoCondensed, sans-serif;
+}
+#navigation
+{
+	font-family: Verdana,sans-serif;
+}
+#closeError
+{
+	width: 45px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+#alert
+{
+	position: absolute;
+    z-index: 2;
+    background-color: red;
+    color: white;
+    left: 0;
+    opacity: 0.9;
+    right: 0;
+    text-align: center;
+    padding: 5%;
+    font-size: 25px;
+}
+#alert a
+{
+	color: white;
+}
+body
+{
+	margin: 0;
+}
+
+#costo,#free
+{
+	margin-left: 0px !important;
+    cursor: initial !important;
+}
+.icon
+{
+	width: 3%;
+}
+.button_next
+{
+	background-color: #2d3a4e;
+    font-size: 17px;
+    color: white;
+    border: none;
+}
+.button_page
+{
+	background-color: #2d3a4e;
+    border-radius: 15px;
+    font-size: 17px;
+    color: white;
+    border: none;
+    margin-bottom: 2vw;
+}
+.button_page:hover
+{
+	background-color: #5c7396 !important;
+	cursor:pointer;
+	
+}
+#ulNav li  /* stimao definendo una lista in linea*/
+{
+	/*dobbiamo agire sui punti della lista e metterli in linea non a cascata come Ã¨
+	di default */
+	
+	border: 1px solid black;
+	
+}
+.titleImgStore
+{
+	margin-left: 0;
+	cursor: inherit;
+}
+aside
+{
+	position: absolute;
+    border: 1px solid black;
+    left: 0;
+    right: 82%;
+}
+
+.prodotti
+{
+	padding-inline-start: 0px;
+	list-style:none;
+	
+	margin-top: 5%;
+}
+
+.lista
+{
+	float: left;
+	   
+	/* width: auto; */
+	 width: 100%;
+}
+
+.result_num
+{
+	display: table;
+    width: 100%;
+    margin-top: 1vw;
+    float: left;
+}
+.icon
+{
+	display: table-cell;
+    width: 2.9vw;
+    float: left;
+    margin-left: 4%;
+}
+.label
+{
+	display: table-cell;
+    width: 80%;
+    float: left;
+    font-size: 1.4vw;
+    position: relative;
+    left: 0.50vw;
+    top: 0.9vw;
+}
+.list_item
+{
+	border-bottom: 2px solid gray;
+    float: left;
+    width: 98%;
+}
+
+.prod_img
+{
+	float: left;
+	margin-bottom: 2%;
+}
+.prod_name
+{
+	float: left;
+    width: 100%;
+}
+.nome_store
+{
+	float: left;
+	width:100%
+}
+.desc_store
+{
+	float: left;
+	width: 100%;
+}
+.image_store
+{
+	float: left;
+}
+.prod_action
+{
+	float: left;
+    margin-top: 6%;
+    
+    padding-left: 1%;
+}
+
+.prod_action form , .prod_action button
+{
+	width: 100%;
+	
+}
+
+.prod_action button
+{
+}
+
+
+.info_prezzi
+{
+	float: left;
+    line-height: 0.7;
+    
+    margin-left: 1.5%;
+}
+footer
+{
+	clear: left;
+    height: 10%;
+    margin-top: 10px;
+}
+.size_40
+{
+	line-height: 1.5;
+    margin-top: 5%;
+    float: left;
+    
+    text-align: center;
+}
+
+
+
+.size_20
+{
+	margin-top: 5%;
+    float: left;
+    line-height: 1.5;
+}
+.buttons_page
+{
+	text-align: center;
+    clear: left;
+}
+.FormPage
+{
+	display: inline;
+}
+
+.nextPage
+{
+	display: inline;
+}
+
+.prevPage
+{
+	display: inline;
+}
+
+.disponibile
+{
+	background: lime;
+    width: 10px;
+    height: 10px;
+    float: left;
+    border-radius: 9px;
+    border: 1px solid #000000;
+    margin-left: 5px;
+}
+.non_disponbiile
+{
+	background: #F44336;
+    width: 10px;
+    height: 10px;
+    float: left;
+    border-radius: 9px;
+    border: 1px solid #000000;
+    margin-left: 5px;
+}
+.titleDisp
+{
+	float: left;
+}
+footer a
+{
+	color: white;
+}
+/* Responsive */
+
+/* Layout smartphone */
+@media screen and (max-width: 599px)
+{
+	
+	.prod_img 
+	{
+    float: left;
+    margin-bottom: 2%;
+    
+    padding-left: 15%;
+	padding-right: 15%;
+    
+	}
+
+
+	.icon
+	{
+		width: 7.4vw;
+		margin-left: 2%;
+	}
+	.label
+	{
+		font-size: 3.4vw;
+		left: 0.50vw;
+    	top: 1.9vw;
+	}
+	
+	.prod_img img
+	{
+		width: 100%;
+		height: auto;
+    	/* border: 3px solid #465b79; */
+	}
+	.size_40
+	{
+		margin-top: 0%;
+		text-align: left;
+		
+		padding-left: 15%;
+		
+	
+	}
+	.size_20 
+	{
+    	margin-top: 0%;
+    	
+    	padding-left: 15%;
+		
+    
+	}
+	.list_item
+	{
+		font-size: 4vw;
+		margin-bottom: 5%;
+		border-bottom: 3px solid gray;
+	}
+	.info_prezzi 
+	{
+    	
+    	
+    	padding-left: 15%;
+		padding-right: 15%;
+	}
+	.prod_action
+	{
+    	margin-top: 2%;
+    	padding-left: 0%;
+    	
+    width: 100%;
+	}
+	
+	.prod_action button
+	{
+		width: 100%;
+	}
+	
+	.prod_action form
+	{
+	/* padding-left: 15%;
+	padding-right: 15%; */
+	}
+	
+	
+	#searchBar
+	{
+		width: 98% !important;
+	}
+	.prodotti
+	{
+		padding-inline-start: 0px;
+	}
+	.buttons_page
+	{
+		font-size: 4vw;
+	}
+	.logo_store
+	{
+		width: 100px;
+    	height: 100px;
+    	display: block;
+	}
+	.image_store
+	{
+    	margin-top: 1%;
+	}
+	.image_store img
+	{
+		width: 100px;
+   	 	height: auto;
+	}
+	.image_store b
+	{
+	    width: 100%;
+		float: left;
+	}
+	.info_prezzi 
+	{
+    line-height: 0.55;
+    margin-top: -7px;
+	}
+	
+	
+	
+}
+/*Layout tablet */
+@media screen and (min-width: 600px) and (max-width: 859px)
+{
+	.icon 
+	{
+    	width: 4.9vw;
+	}
+	.label 
+	{
+    	font-size: 2.5vw;
+    	top: 1.2vw;
+	}
+	.prod_img
+	{
+		border: 2px solid #465b79;
+	}
+	.prod_img img
+	{
+		width: 40vw;
+    	height: 40vw;
+    	display: block;
+	}
+	.size_40
+	{
+		margin-top: 0%;
+	    width: 50%;
+   		margin-left: 1%;
+   		
+   		text-align: left;
+	}
+	.size_20 
+	{
+    	margin-top: 0%;
+    	width: 50%;
+    	margin-left: 1%;
+	}
+	.info_prezzi 
+	{
+    	margin-left: 1%;
+	}
+	.list_item
+	{
+		font-size: 2.5vw;
+		margin-bottom: 2%;
+		border-bottom: 3px solid gray;
+	}
+	.image_store img
+	{
+		width: 100px;
+    	height: auto;
+	}
+	.image_store b
+	{
+		float: left;
+		width: 100%;
+	}
+	.prod_action 
+	{
+    	clear: left;
+    	/* width: 100%; */
+    	text-align: center;
+    	margin-top: 0%;
+    	margin-bottom: 1%;
+    	
+    	
+    	width: 90%;
+	}
+	.prod_action form
+	{
+		float: left;
+		width: 50%;
+	}
+	.info_prezzi 
+	{
+		line-height: 1.5;
+	}
+	.info_prezzi p
+	{
+		margin: 0;
+	}
+	.disponibile
+	{
+		background: lime;
+    	width: 1.1vw;
+    	height: 1.1vw;
+    	float: left;
+    	border-radius: 9px;
+    	border: 1px solid #000000;
+    	margin-left: 5px;
+    	margin-top: 1.3vw;
+	}
+	.non_disponibile
+	{
+		background: #F44336;
+    	width: 1.1vw;
+    	height: 1.1vw;
+    	float: left;
+    	border-radius: 9px;
+    	border: 1px solid #000000;
+    	margin-left: 5px;
+    	margin-top: 1.3vw;
+	}
+}
+/* Layout desktop */
+@media screen and (min-width: 860px)
+{
+	.prod_img
+	{
+    	float: left;
+    	border: 2px solid #465b79;
+	}
+	.prod_img img
+	{
+		width: 8vw;
+   	 	height: 8vw;
+	}
+	.size_40
+	{
+		width: 38%;
+    	margin-left: 1%;
+    	margin-top: 0%;
+	}
+	.size_20
+	{
+		width: 20%;
+    	margin-left: 1%;
+    	margin-top: 0%;
+	}
+	.image_store b
+	{
+		float: left;
+    	width: 100%;
+	}
+	.image_store img
+	{
+    	width: 100px;
+   	 	height: auto;
+	}
+	.info_prezzi p
+	{
+		margin: 0;
+	}
+	.info_prezzi
+	{
+		line-height: 1.5;
+		width: 15%;
+	}
+	.list_item
+	{
+		margin-bottom: 1%;
+		
+		padding-left: 2%;
+	}
+	.prod_action
+	{
+		float: left;
+    	width: 9%;
+    	margin-top: 0%;
+	}
+	.icon
+	{
+		width: 30px;
+		margin-left: 4%;
+	}
+	.label
+	{
+		font-size: 17px;
+    	top: 7px;
+	}
+	.disponibile
+	{
+		position: relative;
+    	top: 6px;
+	}
+	.non_disponibile
+	{
+		position: relative;
+    	top: 6px;
+	}
+}

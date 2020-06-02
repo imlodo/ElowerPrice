@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+/* Regole Generali */
+* {
+	font-family: robotoCondensed, sans-serif;
+}
+
+@font-face
+{
+	font-family: robotoItalic;
+	src: url(/PROGETTO_TSW_UPDATE/font/Roboto-LightItalic.ttf);
+}
+@font-face 
+{
+	font-family: robotoCondensed;
+	src: url(/PROGETTO_TSW_UPDATE/font/Roboto-Condensed.ttf)
+}
+@font-face 
+{
+	font-family: robotoMedium;
+	src: url(/PROGETTO_TSW_UPDATE/font/Roboto-Medium.ttf)
+}
+
+/* @font-face 
+{
+	font-family: coolvetica;
+	src: url(/PROGETTO_TSW_UPDATE/font/coolvetica.ttf);
+} */
+body {
+	background: #ED213A; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #93291E, #ED213A);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #93291E, #ED213A);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#btLogin:hover 
+{
+	background-color: #d41128;
+}
+
+#btLogin:active 
+{
+	position: relative;
+	top: 1px;
+}
+
+#login 
+{
+	background-color: white;
+	-webkit-box-shadow: 3px 8px 18px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 8px 18px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 8px 18px 0px rgba(0, 0, 0, 0.75);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #333333;
+    padding: 10px 20px;
+}
+#error 
+{
+	font-family: sans-serif;
+	color: red;
+	text-align: center;
+	margin-bottom: 8px;
+}
+#titolo
+{
+	font-family: robotoCondensed,sans-serif;
+	text-align: center;
+	font-size: 28px;
+	margin-bottom: 10px;
+}
+#titolo_with_error 
+{
+	font-family: robotoCondensed,sans-serif;
+	text-align: center;
+	font-size: 28px;
+	margin-bottom: 10px;
+}
+.textLog 
+{
+	font-family: robotoItalic,sans-serif;
+	padding: 7px;
+	font-size: 18px;
+	border-width: 0px;
+	border-color: #ffffff;
+	background-color: #ececec;
+	color: #000000;
+	border-style: solid;
+	border-radius: 0px;
+	box-shadow: 0px 0px 1px rgba(66, 66, 66, .75);
+	text-shadow: 0px 0px 0px rgba(66, 66, 66, .100);
+	margin-bottom: 3%;
+	text-align: center;
+	width: 95%;
+}
+#btLogin 
+{
+	background: linear-gradient(-45deg, #f34545, #d61212, #820202, #9d1313);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#932a1e',
+ endColorstr='#ed2139', GradientType=0);
+    -moz-border-radius: 28px;
+    -webkit-border-radius: 28px;
+    border-radius: 28px;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 18px;
+    width: 100%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    background: #ab1919;
+    margin-top: 1%;
+    margin-bottom: 10px;
+    background: linear-gradient(-45deg, #f34545, #d61212, #820202, #9d1313);
+    background-size: 600%;
+    -webkit-animation: anime 16s linear infinite;
+    animation: anime 16s linear infinite;
+}
+@-webkit-keyframes anime {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes anime {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.ricordaUser
+{
+	margin-bottom: 5px;
+}
+.checkbox
+{
+	width: 15px;
+    height: 15px;
+    position: relative;
+    top: 2.3px;
+}
+	.titleCheck
+{
+	font-size: 17px;
+}
+	.g-recaptcha
+{
+	margin-bottom: 5px;
+}
+.optionLogin
+{
+	margin-top: 6px;
+}		
+
+.optionLogin a
+{
+	text-decoration: none;
+	color: #3e3e3e;
+}
+
+.optionLogin a:hover
+{
+	text-decoration: underline;
+}
+
+.optionLogin label
+{
+	cursor: pointer !important;
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="PROGETTO_TSW_UPDATE">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="PROGETTO_TSW_UPDATE"/>
+        <property name="java-output-path" value="/PROGETTO_TSW_UPDATE/build/classes"/>
+    </wb-module>
+</project-modules>

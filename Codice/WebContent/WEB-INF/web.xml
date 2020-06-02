@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>PROGETTO_TSW_UPDATE</display-name>
+  <welcome-file-list>
+    <welcome-file>HomePage.jsp</welcome-file>
+  </welcome-file-list>
+  <error-page>
+  <exception-type>java.lang.Throwable</exception-type>
+  <location>/ErrorHandler</location>
+</error-page>
+	<error-page>
+	 <exception-type>java.lang.Throwable</exception-type>
+   		 <location>/WEB-INF/ErrorPage.jsp</location>
+	</error-page>
+	<error-page>
+   		 <location>/WEB-INF/ErrorPage.jsp</location>
+	</error-page>
+	
+	
+	<error-page>
+  		<error-code>400</error-code>
+  		<location>/WEB-INF/jsp/errorpages/ErrorPage400.jsp</location>
+	</error-page>
+	
+	
+
+  <filter>
+    <filter-name>httpHeaderSecurity</filter-name>
+    <filter-class>org.apache.catalina.filters.HttpHeaderSecurityFilter</filter-class>
+    <init-param>
+      <param-name>xssProtectionEnabled</param-name>
+      <param-value>true</param-value>
+    </init-param>
+    <init-param>
+      <param-name>antiClickJackingEnabled</param-name>
+      <param-value>true</param-value>
+    </init-param>
+    <init-param>
+      <param-name>antiClickJackingOption</param-name>
+      <param-value>DENY</param-value>
+    </init-param>
+  </filter>
+  <filter-mapping>
+    <filter-name>httpHeaderSecurity</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+</web-app>

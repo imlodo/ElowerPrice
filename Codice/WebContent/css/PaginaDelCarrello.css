@@ -1,0 +1,562 @@
+@charset "UTF-8";
+
+
+#acquisti
+{
+	width: 70%;
+	display: inline-block;
+	/* border: 1px solid black; */
+	
+	/* height: 200px; */
+	
+	float: left;
+	margin: 1%;
+	
+	
+}
+
+#barralaterale
+{
+	width: 28%;
+	display: inline-block;
+	
+	/* border: 1px solid black; */
+	
+	/* height: 200px; */
+	position: fixed;
+	margin: 1%;
+	margin-left: 7%;
+	margin-top: 3%;
+}
+
+.itemAcquisto
+{
+	width: 100%;
+	display: inline-block;
+	/* height: 200px; */
+	/* margin: 2%; */
+	margin: 0.5%;
+	background-color: #e4e4e4;
+	
+	
+}
+
+
+.itemAcquistoRemove
+{
+	position: relative;
+	
+}
+
+/* .button
+{
+	display: initial;
+    font-size: 1.5em;
+    position: relative;
+    bottom: 105px;
+    right: 20px;
+	
+
+} */
+
+.info
+{
+	display: inline-block;
+	position: relative;
+	bottom: 44%;
+	left: 10%;
+	width: 20%;
+	
+}
+
+#img_prod_carrello
+{
+	display: inline-block;
+	
+	display: inline-block;
+
+	float: left;
+
+	width: 24%;
+
+	height: 250px;
+
+	margin-right: 1%;
+
+	/* width: 250px; */
+		
+	
+}
+
+#button_img
+{
+	width: 250px;
+	height: 250px;
+	
+}
+
+#form_button_img
+{
+	width: 250px;
+}
+
+#img
+{
+	width: 100%;
+	height: 100%;
+	
+	
+}
+
+
+#name_prod_carrello
+{
+	display: inline-block;
+	
+	height: 200px;
+
+	width: 25%;
+
+	text-align: center;
+	
+	float: left;
+		
+	
+}
+
+#prezzo_prod_carrello
+{
+	display: inline-block;
+    height: 200px;
+    width: 25%;
+    text-align: center;
+    float: left;
+	
+}
+
+#remove_button
+{
+	display: inline-block;
+
+	height: 200px;
+	
+	width: 25%;
+	
+	text-align: center;
+	
+	margin-left: 0%;
+	
+	float: left;
+	
+}
+
+/* input {
+  width: 30%;
+  height : 200px;
+  position: relative;
+  bottom: 80px;
+  text-align: center;
+  right: 50%;
+}
+ */
+ 
+/* p
+{
+	display: inline-block;
+	height: 109px;
+	width: 30%;
+	border: 1px solid black;
+	position: relative;
+	bottom: 179px;
+	left: 5%;
+	margin: 1%;
+	overflow: hidden;
+
+ 
+ } */
+ 
+
+#acquisti p
+{
+    display: inline;
+    position: relative;
+    display: inline-block;
+    height: 109px;
+    width: 30%;
+    /* border: 1px solid black; */
+    position: relative;
+    /* bottom: 96px; */
+    left: 6%;
+    margin: 1%;
+    text-align: center;
+    overflow: hidden;
+}
+
+#right_content
+{
+	
+	
+}
+ 
+ 
+.classButton
+{
+    display: inline;
+    position: relative;
+    bottom: 20%;
+    left: 9%;
+
+}
+
+
+@media screen and (max-width: 1450px) 
+{
+	#img_prod_carrello 
+	{
+    display: inline-block;
+    display: inline-block;
+    float: left;
+    width: 35%;
+    height: 250px;
+    margin-right: 1%;
+    }
+	
+	
+	#name_prod_carrello 
+	{
+    display: inline-block;
+    height: 200px;
+    width: 20%;
+    text-align: center;
+    float: left;
+    position: relative;
+    bottom: -50%;
+    left: 0%
+    
+	}
+	
+	#prezzo_prod_carrello 
+	{
+    display: inline-block;
+    height: 200px;
+    width: 20%;
+    text-align: center;
+    float: left;
+	}
+	
+	
+	#remove_button 
+	{
+    display: inline-block;
+    height: 200px;
+    width: 20%;
+    text-align: center;
+    margin-left: 0%;
+    float: left;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+.button_barralaterale
+{
+	width: 60%;
+    text-align: center;
+    margin-top: 5%;
+
+}
+
+.div_barralaterale_resize
+{
+	
+}
+
+
+@media screen and (max-width: 1100px) 
+{
+	#barralaterale
+	{
+		
+		display: inline-block;
+		position: static;
+		margin: 1%;
+		
+		margin-top: 3%;
+		
+		width: 100%;
+	
+	}
+
+	#acquisti 
+	{
+    	width: 100%;
+    	display: inline-block;
+    	/* border: 1px solid black;
+    	height: 200px; */
+    	float: left;
+    	margin: 1%;
+	}
+	
+	.div_barralaterale_resize
+	{
+		display: inline-block;
+		height: 100px;
+		float: left;
+		width: 33%;
+		
+	}
+	
+	
+	.button_barralaterale 
+	{
+	width: 90%;
+    text-align: center;
+    margin-top: 5%;
+    height: 100px;
+    }
+	
+
+
+
+
+}
+
+@media screen and (max-width: 750px) 
+{
+	#barralaterale
+	{
+		
+		display: inline-block;
+		position: static;
+		margin: 1%;
+		
+		margin-top: 3%;
+		width: 100%
+		
+		
+	
+	}
+	
+	
+	.button_barralaterale 
+	{
+	width: 90%;
+    text-align: center;
+    margin-top: 5%;
+    height: 100px;
+    }
+	
+	.itemAcquisto
+	{
+	
+	width: 100%;
+	display: inline-block;
+	height: 200px;
+	margin: 2%;
+	margin: 0.5%;
+	background-color: #e4e4e4;
+	height: auto;
+	
+	}
+	
+	#img_prod_carrello
+	{
+	float: left;
+	width: 100%;
+	height: auto;
+	
+	}
+	
+	
+	#form_button_img
+	{
+	width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
+    height: auto;
+    }
+	
+	
+	#button_img 
+	{
+    width: 50%;
+    height: auto;
+    }
+    
+    #div_info_prod
+    {
+    float: left;
+	width: 100%;
+	margin-top: 3%;
+	height: auto;
+    }
+	
+	
+	#name_prod_carrello {
+
+    display: inline-block;
+    height: 200px;
+    
+    text-align: center;
+    
+    
+    float: left;
+	width: 100%;
+	height: 100px;
+
+
+	}
+	
+	#prezzo_prod_carrello
+	{
+    float: left;
+    width: 100%;
+	height: 100px;
+	}
+	
+	
+	#remove_button
+	{
+    float: left;
+    width: 100%;
+    height: 100px;
+	}
+	
+	
+	
+	
+}
+
+
+
+@media screen and (max-width: 750px) 
+{
+	#barralaterale
+	{
+		
+		display: inline-block;
+		position: static;
+		margin: 1%;
+		
+		margin-top: 3%;
+		width: 100%;
+		
+		
+	
+	}
+	
+	   
+	.button_barralaterale 
+	{
+    width: 99%;
+    text-align: center;
+    margin-top: 5%;
+    height: 100px;
+    }
+    
+    
+	
+	.itemAcquisto
+	{
+	
+	width: 100%;
+	display: inline-block;
+	height: 200px;
+	margin: 2%;
+	margin: 0.5%;
+	background-color: #e4e4e4;
+	height: auto;
+	
+	}
+	
+	#img_prod_carrello
+	{
+	float: left;
+	width: 100%;
+	height: auto;
+	
+	}
+	
+	
+	#form_button_img
+	{
+	width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
+    height: auto;
+    }
+	
+	
+	#button_img 
+	{
+    width: 50%;
+    height: auto;
+    }
+    
+    #div_info_prod
+    {
+    float: left;
+	width: 100%;
+	margin-top: 3%;
+	height: auto;
+    }
+	
+	
+	#name_prod_carrello {
+
+    display: inline-block;
+    height: 200px;
+    
+    text-align: center;
+    
+    
+    float: left;
+	width: 100%;
+	height: 100px;
+
+
+	}
+	
+	#prezzo_prod_carrello
+	{
+    float: left;
+    width: 100%;
+	height: 100px;
+	}
+	
+	
+	#remove_button
+	{
+    float: left;
+    width: 100%;
+    height: 100px;
+	}
+	
+	
+	.div_barralaterale_resize
+	{
+	display: inline-block;
+	height: 100px;
+	float: left;
+	clear: both;
+	width: 100%;
+	
+	}
+	
+	
+	
+	
+	
+}
+
+
+	

@@ -1,0 +1,543 @@
+@charset "UTF-8";
+/* Regole generali */
+
+h1
+{
+	margin:0 !important;
+}
+#navigation
+{
+	margin-bottom: 5px;
+	font-family: Verdana,sans-serif;
+}
+
+#navigation a:link
+{
+	color:white;
+}
+#navigation a:visited
+{
+	color:white;
+}
+
+.fa
+{
+	color:white;
+}
+#menu 
+{
+	list-style-type: none;
+}
+
+a 
+{
+	text-decoration: none;
+}
+
+
+#iconProduct {
+	width: 35px;
+}
+
+#iconAccedi {
+	width: 32px;
+}
+
+#iconIscriviti {
+	width: 32px;
+}
+
+#iconCarrello {
+	width: 32px;
+}
+
+#iconAreaPersonale {
+	width: 30px;
+}
+
+#imgLogout {
+	width: 25px;
+}
+
+#fixF {
+	position: relative;
+	margin-top: 10px;
+}
+
+label {
+	margin-left: 0px;
+	cursor: pointer;
+}
+
+#exit {
+	position: relative;
+	bottom: 5px;
+}
+
+.ui-tooltip {
+	background: #4a4a4a !important;
+	color: #96f226 !important;
+	border: 2px solid #454545 !important;
+	border-radius: 0px !important;
+	box-shadow: 0 0 !important;
+	list-style-type: none !important;
+}
+
+.ui-autocomplete {
+	overflow-y: scroll !important;
+	overflow-x: hidden !important;
+	background: #4a4a4a !important;
+	border-radius: 0px !important;
+	list-style-type: none !important;
+	
+	/*grandezza barra dei suggerimenti */
+	width: 25%;
+	height: 250px;
+	
+	
+}
+
+.ui-autocomplete.source:hover {
+	background: #454545 !important;
+	list-style-type: none !important;
+}
+
+.ui-menu .ui-menu-item a {
+	height: 10px !important;
+	font-size: 14px !important;
+	list-style-type: none !important;
+	color: white;
+	cursor: pointer;
+}
+
+.ui-helper-hidden-accessible {
+	display: none !important;
+}
+
+/* Regoli css generali */
+.image
+{	
+}
+#optionMenu
+{
+	color: white;
+	text-align: center;
+}
+
+/* Inifluente */
+
+#navigation2
+{
+	background-color: #141a23;
+    width: 100%;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/*Admin panel */
+#navigation3
+{
+	background-color: #141a23;
+    width: 100%;
+    position: absolute;
+    top: 180px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Responsive */
+
+/* Layout smartphone */
+@media only screen and (max-width: 599px)
+{
+	#navigation
+	{
+		background-color: #141a23;
+    	width: 100%;
+    	float: left;
+	}
+	
+	#navigation2
+	{
+		top:420px;
+		display:block;
+		
+	}
+	
+	#navigation3
+	{
+		top: 840px;
+		display:block;
+		
+	}
+	
+	.image
+	{
+		width: 7%;
+    	float: left;
+    	margin-left: 12px;
+    	margin-top: 10px;
+    	margin-bottom: 10px;
+	}
+	#optionMenu
+	{
+		float: left;
+    	margin-top: 10px;
+	}
+	#searchBar
+	{
+		float: left;
+    	width: 100%;
+    	margin-top: 5px;
+    	margin-left: 10px;
+	}
+	#logo
+	{
+		width: 60%;
+    	float: left;
+    	margin-left: 10px;
+    	margin-top: 15px;
+	}
+	.elMenu
+	{
+		float: left;
+    	width: 100%;
+	}
+	.textSearch
+	{
+		width: 80%;
+    	font-size: 20px;
+    	float: left;
+    	border: none;
+    	border-right: none;
+    	border-top-left-radius: 7px;
+    	border-bottom-left-radius: 7px;
+    	padding: 5px;
+	}
+	#searchBar button
+	{
+		padding: 9px;
+    	border: none;
+    	border-left: none;
+    	padding-right: 15px;
+    	padding-left: 15px;
+    	border-top-right-radius: 7px;
+    	border-bottom-right-radius: 7px;
+    	background: gray;
+	}
+	.labelMenu
+	{
+   		margin-top: 16px;
+    	float: left;
+    	font-size: 17px;
+    	margin-left: 7px;
+	}
+	.elMenuAdmin
+	{
+		float: left;
+    	width: 100%;
+    	margin-bottom: 20px;
+	}
+	#optionMenuAdmin
+	{
+		width: 100%;
+   		text-align: center;
+    	float: left;
+    	margin-top: 10px;
+    	color: white;
+    	margin-bottom: 10px;
+	}
+	#searchBarAdmin
+	{
+    	float: left;
+    	width: 100%;
+    	margin-top: 5px;
+    	margin-left: 10px;
+	}
+	#searchBarAdmin button
+	{
+		padding: 9px;
+    	border: none;
+    	border-left: none;
+    	padding-right: 15px;
+    	padding-left: 15px;
+    	border-top-right-radius: 7px;
+    	border-bottom-right-radius: 7px;
+    	background: gray;
+	}
+	.textSearchAdmin
+	{
+		width: 80%;
+    	font-size: 20px;
+    	float: left;
+    	border: 1px solid black;
+    	border-right: none;
+    	border-top-left-radius: 7px;
+    	border-bottom-left-radius: 7px;
+    	padding: 8px;
+	}	
+}
+/* Layout Tablet */
+@media only screen and (min-width: 600px) and (max-width: 859px)
+{
+	#navigation
+	{
+		background-color: #141a23;
+    	width: 100%;
+    	float:left;
+	}
+	
+	.image
+	{
+		display: inline-block;
+    	vertical-align: middle;
+    	width: 30px;
+    	margin-left: 0;
+    	margin-right: 0;
+    	position: inherit;
+	}
+	#optionMenu
+	{
+		float: left;
+    	width: 100%;
+    	margin-top: 10px;
+    	margin-bottom: 10px;
+	}
+	#searchBar
+	{
+		float: left;
+    	width: 55%;
+    	margin-top: 3%;
+    	margin-left: 3%;
+    	margin-bottom: 3%;
+	}
+	#logo
+	{
+		width: 40%;
+    	float: left;
+    	margin-left: 2%;
+    	margin-top: 1.5%;
+	}
+	.elMenu
+	{
+		float: left;
+   		width: 25%;
+	}
+	.textSearch
+	{
+		width: 80%;
+    	font-size: 20px;
+    	float: left;
+    	border: none;
+    	border-right: none;
+    	border-top-left-radius: 7px;
+    	border-bottom-left-radius: 7px;
+    	padding: 5px;
+	}
+	#searchBar button
+	{
+		padding: 9px;
+    	border: none;
+    	border-left: none;
+    	padding-right: 15px;
+    	padding-left: 15px;
+    	border-top-right-radius: 7px;
+    	border-bottom-right-radius: 7px;
+    	background: gray;
+	}
+	.labelMenu
+	{
+   		cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+	}
+	.elMenuAdmin
+	{
+		float: left;
+    	width: 20%;
+	}
+	#optionMenuAdmin
+	{
+		width: 100%;
+   		text-align: center;
+    	float: left;
+    	margin-top: 10px;
+    	color: white;
+    	margin-bottom: 10px;
+	}
+	#searchBarAdmin
+	{
+    	float: left;
+    	width: 55%;
+    	margin-top: 3%;
+    	margin-left: 3%;
+    	margin-bottom: 3%;
+	}
+	#searchBarAdmin button
+	{
+		padding: 9px;
+    	border: none;
+    	border-left: none;
+    	padding-right: 15px;
+    	padding-left: 15px;
+    	border-top-right-radius: 7px;
+    	border-bottom-right-radius: 7px;
+    	background: gray;
+	}
+	.textSearchAdmin
+	{
+		width: 85%;
+    	font-size: 20px;
+    	float: left;
+    	border: 1px solid black;
+    	border-right: none;
+    	border-top-left-radius: 7px;
+    	border-bottom-left-radius: 7px;
+    	padding: 8px;
+	}
+}
+
+/* Layout Desktop */
+@media only screen and (min-width: 860px)
+{	
+	#navigation
+	{
+		    background-color: #141a23;
+    display: table;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+	}
+	.image
+	{
+		display: inline-block;
+    	vertical-align: middle;
+    	width: 30px;
+    	margin-left: 0;
+    	margin-right: 0;
+    	position: inherit;
+	}
+	#optionMenu
+	{
+		font-size: 14px;
+		width: 35%;
+    	display: table-cell;
+    	vertical-align: middle;
+	}
+	#searchBar
+	{
+	    font-size: 15px;
+		width: 40%;
+    	display: table-cell;
+    	vertical-align: middle;
+	}
+	#logo
+	{
+		display: table-cell;
+    	vertical-align: middle;
+	}
+	.elMenu
+	{
+		float: left;
+   		width: 25%;
+	}
+	
+	.textSearch 
+	{
+   		width: 80%;
+    	font-size: 1vw;
+    	float: left;
+    	border-right: none;
+    	border-top-left-radius: 7px;
+    	border-bottom-left-radius: 7px;
+    	padding: 1.5%;
+    	border: none;
+    	font: inherit;
+    	line-height: 1.5;
+	}
+	#searchBar button
+	{
+		padding: 1.5%;
+   	 	border-left: none;
+    	padding-right: 15px;
+    	padding-left: 15px;
+    	border-top-right-radius: 7px;
+    	border-bottom-right-radius: 7px;
+    	background: gray;
+    	border: none;
+    	font-size: 1vw;
+    	font: inherit;
+    	line-height: 1.5;
+	}
+	.labelMenu
+	{
+   		cursor: pointer;
+    	display: inline-block;
+    	vertical-align: middle;
+    	width: 100%;
+	}
+	label
+	{
+		margin-left: 0px;
+	}
+	.elMenuAdmin
+	{
+		float: left;
+    	width: 20%;
+	}
+	#optionMenuAdmin
+	{
+		width: 40%;
+    	text-align: center;
+    	color: white;
+    	display: table-cell;
+    	vertical-align: middle;
+    	font-size: 13px;
+	}
+	.textSearchAdmin
+	{
+		width: 80%;
+    	font-size: 20px;
+    	float: left;
+    	border: 1px solid black;
+    	border-right: none;
+    	border-top-left-radius: 7px;
+    	border-bottom-left-radius: 7px;
+    	padding: 8px;
+    	font: inherit;
+    	line-height: 1.5;
+	}
+	#searchBarAdmin
+	{
+    	font-size: 14px;
+		width: 35%;
+    	display: table-cell;
+    	vertical-align: middle;
+    	
+	}
+	
+	#searchBarAdmin button
+	{
+		padding: 1.5%;
+   	 	border-left: none;
+    	padding-right: 15px;
+    	padding-left: 15px;
+    	border-top-right-radius: 7px;
+    	border-bottom-right-radius: 7px;
+    	background: gray;
+    	border: none;
+    	font-size: 1vw;
+    	font: inherit;
+    	line-height: 1.5;
+	}
+	.fixLogo
+	{
+		width:84%;
+	}
+}
+
